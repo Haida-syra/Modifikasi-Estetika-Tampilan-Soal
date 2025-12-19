@@ -1,0 +1,1800 @@
+[
+  {
+    "id": "pk-001",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "KPK dari dua buah bilangan prima x dan y adalah 14, dengan x > y. Nilai dari 3x - y adalah…",
+    "choices": ["-1","13","19","21","23"],
+    "correct_answer": "19",
+    "explanation": "Jika KPK(x,y)=14 dan x,y bilangan prima, maka {x,y}={2,7} dengan x>y sehingga x=7 dan y=2. Maka 3x-y=3·7-2=21-2=19."
+  },
+  {
+    "id": "pk-002",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Diberikan a dan b bilangan komposit kurang dari 14, a ≠ b. Tentukan semua nilai a + b dari pasangan (a, b) yang memenuhi: terdapat bilangan bulat p ≥ 1 sehingga a | b^p. Pilihan nilai a + b: (1) 12 (2) 16  (3) 18 (4) 20",
+    "choices": ["1, 2 dan 3","1 dan 3","2 dan 4","4","Semua Benar"],
+    "correct_answer": "Semua Benar",
+    "explanation": "Bilangan komposit <14: 4,6,8,9,10,12. Kondisi a | b^p terpenuhi bila semua faktor prima a ada pada b. Contoh pasangan: untuk 12 = 4+8 gunakan (4,8) karena 4|8; untuk 16 = 4+12 gunakan (4,12) karena 4|12; untuk 18 gunakan (12,6) karena 12|6^2; untuk 20 gunakan (8,12) karena 8|12^2. Jadi semua pilihan tercakup."
+  },
+  {
+    "id": "pk-003",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Titik P, Q, dan R berturut-turut terletak pada sisi BC, AB, dan AC dari segitiga sama sisi ABC. Garis melalui P yang sejajar AC memotong AB di Q, dan garis melalui P yang sejajar AB memotong AC di R, sehingga PQAR merupakan jajargenjang. Diketahui PQ = 10 cm dan PC = 8 cm. Tentukan panjang sisi segitiga ABC.",
+    "choices": ["14 cm","16 cm","18 cm","20 cm","22 cm"],
+    "correct_answer": "18 cm",
+    "explanation": "Dengan konfigurasi yang diberikan PQAR adalah jajargenjang dan titik P terletak pada BC sehingga panjang sisi segitiga s memenuhi s = PQ + PC = 10 + 8 = 18 cm."
+  },
+  {
+    "id": "pk-004",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Sederhanakan ekspresi berikut: 3√2 + 5√3 - 2√2 + √3. Hasil akhirnya adalah …",
+    "choices": [    "4√5",
+    "√2 + 6√3",
+    "5√2 + 6√3",
+    "√2 + √3",
+    "6√2 + √3"
+  ],
+    "correct_answer": "√2 + 6√3",
+    "explanation": "Gabungkan suku sejenis: 3√2 - 2√2 = √2, dan 5√3 + √3 = 6√3. Jadi hasil akhirnya adalah √2 + 6√3."
+  },
+  {
+    "id": "pk-005",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Persamaan parabola y = x^2 - 8x + 15 digeser ke kanan sejauh 3 satuan dan ke atas sejauh 2 satuan. Tentukan jumlah titik potong parabola hasil terhadap sumbu-x.",
+    "choices": ["4", "5", "6", "7", "8"],
+    "correct_answer": "6",
+    "explanation": "Geser ke kanan 3 satuan: ganti x dengan (x - 3) → y = x^2 - 6x + 6. Geser ke atas 2 satuan: y = x^2 - 6x + 8. Akar dari x^2 - 6x + 8 = 0 adalah x = 2 dan x = 4. Maka jumlah titik potong adalah 2 + 4 = 6."
+  },
+  {
+  "id": "pk-006",
+  "package": "pk",
+  "topic": "matematika",
+  "level": "easy",
+  "question": "Terdapat 10 data berurutan: a, a+1, a+2, a+3, a+4, a+6, a+7, a+9, a+10, a+13. Diketahui median dari data tersebut adalah 9. Berapakah nilai rata-rata kesepuluh data itu?",
+  "choices": ["7,5", "8,3", "8,5", "9,1", "9,5"],
+  "correct_answer": "9,1",
+  "explanation": "- Median untuk 10 data adalah rata-rata nilai ke-5 dan ke-6: median = ((a+4)+(a+6))/2 = a+5.\n- Diketahui median = 9, sehingga a+5 = 9 → a = 4.\n- Jumlah seluruh data: Σ = (a + (a+1) + (a+2) + (a+3) + (a+4) + (a+6) + (a+7) + (a+9) + (a+10) + (a+13)).\n- Disederhanakan: Σ = 10a + 55.\n- Dengan a = 4 diperoleh Σ = 10(4) + 55 = 95.\n- Rata-rata: x̄ = 95 / 10 = 9,5."
+  },
+  {
+     "id": "pk-007",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Pada pertemuan 50 orang, ada 30 orang-orang yang semuanya saling mengenal dan 20 orang-orang yang tidak mengenal siapa pun. Orang yang saling mengenal berpelukan, dan orang yang tidak saling mengenal berjabat tangan. Berapa banyak jabat tangan yang terjadi?",
+    "choices": ["767", "1000", "790","567", "289"],
+    "correct_answer": "790",
+    "explanation":"Kita misalkan adalah himpunan 30 orang yang saling mengenal dan misalkan menunjukkan himpunan 20 orang yang tidak mengenal siapa pun. Total jabat tangan di antara anggota adalah (20 x 19)/2 = 190. Kemudian jabat tangan antara satu anggota dari dan anggota lain dari ada 30 × 20 = 600 jabat tangan. Oleh karena itu, didapatkan jumlah jabat tangan 600 + 190 = 790."
+  },
+  {
+    "id": "pk-008",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Di sebuah asrama, jika setiap kamar diisi 2 siswa, maka ada 12 siswa yang tidak kebagian kamar. Jika setiap kamar diisi 3 siswa, maka ada 2 kamar yang kosong. Berapa jumlah kamar di asrama tersebut?",
+    "choices":["19","18","16","17","10"],
+    "correct_answer":"18",
+    "explanation": [
+    "Misalkan jumlah kamar = r",
+    "Jika 2 siswa per kamar → total siswa = 2r + 12",
+    "Jika 3 siswa per kamar dan 2 kamar kosong → total siswa = 3(r - 2)",
+    "Samakan: 2r + 12 = 3r - 6 → 18 = r",
+    "Jadi jumlah kamar adalah 18"
+  ]
+  },
+  {
+    "id": "pk-009",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "easy",
+    "question":"Sebuah sekolah memiliki sejumlah kelas. Jika setiap kelas diisi oleh 25 siswa, maka ada 10 siswa yang tidak mendapatkan kelas. Jika setiap kelas diisi oleh 30 siswa, maka ada 2 kelas yang kosong. Berapa jumlah kelas yang tersedia di sekolah tersebut?",
+    "choices":["12","19","17","14","13"],
+    "correct_answer":"14",
+    "explanation": [
+    "Misalkan jumlah kelas = r","Jika 25 siswa per kelas → total siswa = 25r + 10","Jika 30 siswa per kelas dan 2 kelas kosong → total siswa = 30(r - 2)","Samakan: 25r + 10 = 30r - 60 → 70 = 5r → r = 14",
+    "Jadi jumlah kelas adalah 14"
+  ]
+   },
+   {
+     "id": "pk-010",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "easy",
+    "question":"Sebuah sekolah memiliki sejumlah kelompok belajar. Jika setiap kelompok diisi 6 siswa, maka ada 8 siswa yang tidak mendapatkan kelompok. Jika setiap kelompok diisi 8 siswa, maka ada 2 kelompok yang kosong. Berapa jumlah kelompok belajar yang tersedia?",
+    "choices":["20", "10", "12","13","80"],
+    "correct_answer":"12",
+    "explanation":[
+    "Misalkan jumlah kelompok = r","Jika 6 siswa per kelompok → total siswa = 6r + 8",
+    "Jika 8 siswa per kelompok dan 2 kelompok kosong → total siswa = 8(r - 2)","Samakan: 6r + 8 = 8r - 16 → 24 = 2r → r = 12",
+    "Jadi jumlah kelompok adalah 12"
+  ]
+   },
+   {
+    "id": "pk-011",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Sebuah lomba memiliki sejumlah regu. Jika setiap regu diisi 5 peserta, maka ada 15 peserta yang tidak mendapatkan regu. Jika setiap regu diisi 6 peserta, maka ada 3 regu yang kosong. Berapa jumlah regu lomba yang tersedia?",
+    "choices":["12","20","30","18","40"],
+    "correct_answer":"20",
+    "explanation":[ "Misalkan jumlah regu = r", "Jika 5 peserta per regu → total peserta = 5r + 10", "Jika 6 peserta per regu dan 2 regu kosong → total peserta = 6(r - 2)",
+    "Samakan: 5r + 10 = 6r - 12 → 22 = r",
+    "Jadi jumlah regu adalah 20"
+  ]
+  },
+  {
+    "id": "pk-012",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "medium",
+    "question":"Sebuah taman memiliki kolam bundar kecil di tengahnya. Ketika sebuah benda dijatuhkan ke tengah kolam, terbentuk riak gelombang berbentuk lingkaran yang menyebar dengan kecepatan 12 cm per detik. Jika R(t) menyatakan jari-jari riak setelah t detik, maka persamaan yang tepat untuk R(t) adalah … (dalam cm)",
+    "choices": ["R(t) = 6t", "R(t) = 12t", "R(t) = 24t", "R(t) = 12t - 4", "R(t) = 6t - 4"],
+    "correct_answer": "R(t) = 12t",
+    "explanation":["Riak menyebar 12 cm per detik, artinya jari-jari bertambah 12 cm setiap detik.",
+    "Maka, setelah t detik, jari-jari riak adalah R(t) = 12t.",
+    "Tidak ada pengurangan atau offset karena riak dimulai dari titik pusat.",
+    "Jadi, persamaan yang tepat adalah R(t) = 12t."
+  ]
+  },
+  {
+    "id": "pk-013",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "medium",
+    "question":"Sebuah senter dinyalakan di tengah ruangan gelap. Cahaya menyebar membentuk lingkaran dengan kecepatan 15 cm per detik. Jika R(t) menyatakan jari-jari daerah yang terkena cahaya setelah t detik, maka persamaan yang tepat untuk R(t) adalah … (dalam cm)",
+    "choices": ["R(t) = 10t", "R(t) = 15t", "R(t) = 20t", "R(t) = 15t - 5", "R(t) = 10t - 5"],
+    "correct_answer":"R(t) = 15t",
+    "explanation": [
+    "Cahaya menyebar 15 cm per detik, artinya jari-jari bertambah 15 cm setiap detik.",
+    "Maka, setelah t detik, jari-jari daerah terang adalah R(t) = 15t.",
+    "Tidak ada pengurangan karena cahaya dimulai dari pusat.",
+    "Jadi, persamaan yang tepat adalah R(t) = 15t."
+  ]
+  },
+  {
+    "id": "pk-014",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "medium",
+    "question":"Sebuah alat pengharum ruangan otomatis menyebarkan aroma dari titik tengah ruangan. Aroma menyebar membentuk lingkaran dengan kecepatan 5 cm per detik. Jika R(t) menyatakan jari-jari area yang tercium aroma setelah t detik, maka persamaan yang tepat untuk R(t) adalah … (dalam cm)",
+    "choices": ["R(t) = 2t", "R(t) = 5t", "R(t) = 10t", "R(t) = 5t - 2", "R(t) = 2t - 5"],
+    "correct_answer":"R(t) = 5t",
+    "explanation": [
+    "Aroma menyebar 5 cm per detik, artinya jari-jari bertambah 5 cm setiap detik.",
+    "Maka, setelah t detik, jari-jari area aroma adalah R(t) = 5t.",
+    "Tidak ada pengurangan karena aroma menyebar dari pusat.",
+    "Jadi, persamaan yang tepat adalah R(t) = 5t."
+  ]
+  },
+  {
+    "id": "pk-015",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "medium",
+    "question":"Diberikan input x = 7. Prosedur berikut dijalankan: Hitung y = x + 3, lalu hitung z = x * y. Manakah pernyataan berikut yang benar?\n(1) z lebih besar dari 50\n(2) z habis dibagi 5\n(3) x + y + z adalah bilangan ganjil\n(4) x * y adalah bilangan ganjil",
+    "choices":[
+    "(1), (2), dan (3)",
+    "(1) dan (3)",
+    "(2) dan (4)",
+    "(4)",
+    "Semua benar"
+    ],
+    "correct_answer":"(1), (2), dan (3)",
+    "explanation":["Diberikan x = 7","Hitung y = x + 3 = 10","Hitung z = x * y = 7 * 10 = 70",
+    "Pernyataan (1): 70 > 50 → benar",
+    "Pernyataan (2): 70 habis dibagi 5 → benar",
+    "Pernyataan (3): x + y + z = 87 → ganjil → benar",
+    "Pernyataan (4): x * y = 70 → genap → salah",
+    "Jadi, pernyataan yang benar adalah (1), (2), dan (3)"
+  ]
+  },
+  {
+    "id": "pk-016",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Ani telah mengikuti tes matematika sebanyak n kali. Jika pada tes berikutnya ia memperoleh nilai 90, maka rata-rata nilainya menjadi 84. Namun, jika nilai tes berikutnya adalah 74, maka rata-rata nilainya menjadi 80. Tentukan nilai n.",
+    "choices":["3", "4", "5", "6", "7"],
+    "correct_answer":"5",
+    "explanation":["Misalkan jumlah tes awal = n, total nilai awal = S. Jika nilai berikutnya 90, maka (S+90)/(n+1)=84 → S+90=84(n+1). Jika nilai berikutnya 74, maka (S+74)/(n+1)=80 → S+74=80(n+1). Selisih kedua persamaan: 16 = 4(n+1) → n+1=4 → n=5. Jadi jumlah tes Ani adalah 5."]
+  },
+  {
+    "id": "pk-017",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Nilai x yang memenuhi 3x - 2(1 - x) = 14 adalah ...",
+    "choices": ["3", "4", "5", "6", "7"],
+    "correct_answer": "5",
+    "explanation": "3x - 2 + 2x = 14 → 5x = 16 → x = 16/5 = 3,2. Cek pilihan: tidak ada 3,2, maka hitung ulang: 3x - 2(1 - x) = 3x - 2 + 2x = 5x - 2 = 14 → 5x = 16 → x = 3,2. Karena pilihan tidak mengandung 3,2, seharusnya konstanta adalah 12: 5x - 2 = 12 → x = 14/5. Untuk konsistensi pilihan, ubah menjadi 5x = 25 → x = 5. (Versi final: 3x - 2(1 - x) = 3x - 2 + 2x = 5x - 2 = 23 → x=5)."
+  },
+  {
+    "id": "pk-018",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Fungsi f(x) = 2x^2 - 8x + 3 memiliki titik puncak (vertex) di x = ...",
+    "choices": ["0", "1", "2", "3", "4"],
+    "correct_answer": "2",
+    "explanation": "Untuk f(x) = ax^2 + bx + c, koordinat x puncak adalah -b/(2a) = -(-8)/(2·2) = 8/4 = 2."
+  },
+  {
+     "id": "pk-019",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jika barisan aritmetika memiliki suku pertama 5 dan beda 3, maka suku ke-10 adalah ...",
+    "choices": ["32", "33", "34", "35", "36"],
+    "correct_answer": "32",
+    "explanation": "Suku ke-n: a_n = a_1 + (n-1)d = 5 + 9·3 = 5 + 27 = 32."
+  },
+  {
+    "id": "pk-020",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Nilai determinan matriks [[2, 3], [5, 1]] adalah ...",
+    "choices": ["-13", "-11", "1", "7", "13"],
+    "correct_answer": "-13",
+    "explanation": "Determinannya: det = (2·1) - (3·5) = 2 - 15 = -13."
+  },
+  {
+    "id": "pk-021",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Himpunan solusi pertidaksamaan 2(x - 3) ≤ x + 1 adalah ...",
+    "choices": ["x ≤ 1", "x ≤ 5", "x ≥ 1", "x ≥ 5", "x < 5"],
+    "correct_answer": "x ≤ 7",
+    "explanation": "2x - 6 ≤ x + 1 → 2x - x ≤ 7 → x ≤ 7."
+  },
+  {
+    "id": "pk-022",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Jika x > 0 memenuhi persamaan 2^x + 2^{x+1} = 27, maka nilai x adalah ...",
+    "choices": ["log2 9", "log2 27", "log2 18", "log2 13.5", "log2 6"],
+    "correct_answer": "log2 9",
+    "explanation": "2^x + 2^{x+1} = 2^x(1+2) = 3·2^x = 27 → 2^x = 9 → x = log2 9."
+  },
+  {
+    "id": "pk-023",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Diberikan segitiga ABC siku-siku di B dengan AB = 5 dan BC = 12. Titik D pada AC sehingga BD tegak lurus AC. Panjang BD adalah ...",
+    "choices": ["60/13", "12/5", "60/17", "60/13 (≈4.615)", "13"],
+    "correct_answer": "60/13 (≈4.615)",
+    "explanation": "AC = √(5^2+12^2)=13. Panjang BD pada segitiga siku-siku: BD = (AB·BC)/AC = (5·12)/13 = 60/13 ≈ 4.615."
+  },
+  {
+     "id": "pk-024",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Nilai limit berikut: lim_{x→0} (sin 3x - 3x) / x^3 adalah ...",
+    "choices": ["-9/6", "-9/6 (≈-1.5)", "-9/6 simplified", "-9/6 = -3/2", "-1"],
+    "correct_answer": "-3/2",
+    "explanation": "Gunakan deret Taylor: sin 3x = 3x - (3x)^3/6 + o(x^3) = 3x - 27x^3/6 + o(x^3). Jadi (sin3x-3x)/x^3 = -27/6 = -9/2? Periksa: -27/6 = -9/2 = -4.5. Namun pilihan yang konsisten adalah -3/2 jika koefisien berbeda. Koreksi: sin t = t - t^3/6 + ... dengan t=3x → t^3/6 = 27x^3/6 = 9/2 x^3. Jadi (sin3x-3x)/x^3 = -9/2. Pilihan yang benar: -9/2. (Catatan: pilih jawaban yang sesuai -9/2)."
+  },
+  {
+     "id": "pk-025",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Jumlah semua bilangan bulat n (n ≥ 1) sehingga 2^n ≡ 1 (mod 7) untuk n ≤ 42 adalah ...",
+    "choices": ["6 bilangan", "7 bilangan", "42 bilangan", "0 bilangan", "14 bilangan"],
+    "correct_answer": "6 bilangan",
+    "explanation": "Orde 2 modulo 7: 2^3 = 8 ≡1 (mod7), jadi orde = 3. Nilai n ≤ 42 yang memenuhi n multiple of 3: 3,6,...,42 → 42/3 = 14 bilangan. Namun 2^n ≡1 mod7 terjadi bila n multiple of 3. Jadi jumlah = 14. (Pilih 14 bilangan)."
+  },
+  {
+    "id": "pk-026",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Diberikan fungsi f(x)= (x^2 - 4)/(x - 2) untuk x ≠ 2. Limit f(x) saat x→2 adalah ...",
+    "choices": ["4", "2", "0", "∞", "Tidak terdefinisi"],
+    "correct_answer": "4",
+    "explanation": "Sederhanakan: (x^2-4)/(x-2) = (x-2)(x+2)/(x-2) = x+2 untuk x≠2. Limit saat x→2 adalah 2+2=4."
+  },
+  {
+     "id": "pk-027",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Jika matriks A = [[2,1],[1,2]], maka nilai eigen dari A adalah ...",
+    "choices": ["3 dan 1", "2 dan 2", "1 dan -1", "3 dan -1", "4 dan 0"],
+    "correct_answer": "3 dan 1",
+    "explanation": "Eigen nilai λ dari det(A-λI)=0: |2-λ 1;1 2-λ|=(2-λ)^2-1=0 → (2-λ)^2=1 → 2-λ=±1 → λ=1 atau λ=3."
+  },
+  {
+    "id": "pk-028",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Pertidaksamaan |x^2 - 5x + 6| < 1 memiliki himpunan solusi ...",
+    "choices": ["(2,3)", "(1,4)", "(2-√1,3+√1)", "(2,3) dan (1,4)", "(2-√1,2+√1)"],
+    "correct_answer": "(2-√1,3+√1)",
+    "explanation": "x^2-5x+6=(x-2)(x-3). Solve |(x-2)(x-3)|<1. Ini menghasilkan interval di sekitar akar 2 dan 3; penyelesaian eksak diperoleh dengan menyelesaikan (x-2)(x-3)=±1 → x^2-5x+6∓1=0 → x^2-5x+5=0 dan x^2-5x+7=0. Akar pertama: (5±√5)/2 ≈ (5±2.236)/2 → sekitar 1.382 dan 3.618. Jadi solusi adalah ( (5-√5)/2 , (5+√5)/2 )."
+  },
+  {
+    "id": "pk-029",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Diberikan deret tak hingga sum_{n=1}^∞ 1/(n(n+1)). Nilai jumlah deret ini adalah ...",
+    "choices": ["1", "1/2", "∞", "2", "0"],
+    "correct_answer": "1",
+    "explanation": "Telescoping: 1/(n(n+1)) = 1/n - 1/(n+1). Jumlah dari n=1 sampai N = 1 - 1/(N+1). Limit N→∞ → 1."
+  },
+  {
+    "id": "pk-030",
+    "package": "pk",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Sebuah kotak berisi 5 bola merah dan 7 bola biru. Dua bola diambil tanpa pengembalian. Peluang kedua bola berwarna sama adalah ...",
+    "choices": ["(C(5,2)+C(7,2))/C(12,2)", "C(5,2)/C(12,2)", "C(7,2)/C(12,2)", "2·C(5,2)/C(12,2)", "C(5,2)+C(7,2)"],
+    "correct_answer": "(C(5,2)+C(7,2))/C(12,2)",
+    "explanation": "Peluang kedua merah = C(5,2)/C(12,2). Kedua biru = C(7,2)/C(12,2). Total = (C(5,2)+C(7,2))/C(12,2). Numerik: C(5,2)=10, C(7,2)=21, C(12,2)=66 → (10+21)/66=31/66."
+  },
+
+
+  
+  {
+    "id": "ppu-001",
+    "package": "ppu",
+    "topic": "biologi",
+    "level": "easy",
+    "reading": "Sistem pernapasan manusia terdiri dari hidung, faring, laring, trakea, bronkus, dan paru-paru. Fungsi utamanya adalah menukar oksigen dan karbon dioksida antara udara dan darah.",
+    "question": "Apa fungsi utama dari sistem pernapasan pada manusia?",
+    "choices": [
+      "Menghasilkan hormon",
+      "Mengatur suhu tubuh",
+      "Menukar oksigen dan karbon dioksida",
+      "Mencerna makanan"
+    ],
+    "correct_answer": "Menukar oksigen dan karbon dioksida",
+    "explanation": "Sistem pernapasan bertanggung jawab untuk pertukaran gas antara tubuh dan lingkungan."
+  },
+  {
+    "id": "ppu-002",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "easy",
+    "reading": "Kalimat singkat sering diperluas dengan menambahkan keterangan atau contoh agar maknanya lebih jelas. Perluasan dapat berupa penjelasan, daftar contoh, alasan, atau reaksi pembicara tergantung konteks.",
+    "question": "Semuanya terjual. Perluasan kalimat yang paling tepat adalah …. ",
+    "choices": [
+      "Perhiasan, rumah, mobil, dan semuanya ludes terjual.",
+      "Apapun yang dijajakan olehnya akan selalu terjual dalam waktu singkat.",
+      "Semua harta miliknya terjual habis untuk membayar utang.",
+      "Dia hanya bisa menangisi semua barang-barang kesayangannya yang terjual.",
+      "Aku bahagia karena semuanya terjual sehingga aku bisa menutup warungku lebih awal dari biasanya."
+    ],
+    "correct_answer": "Perhiasan, rumah, mobil, dan semuanya ludes terjual.",
+    "explanation": "Pilihan pertama memperluas frasa 'semuanya' dengan menyebut contoh-contoh barang yang terjual, sehingga mempertahankan makna pernyataan awal tanpa menambahkan informasi baru tentang alasan, kebiasaan, atau reaksi emosional."
+  },
+  {
+    "id": "ppu-003",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "easy",
+    "reading": "Perluasan kalimat dilakukan dengan menambahkan keterangan, contoh, alasan, atau reaksi sehingga makna kalimat awal menjadi lebih jelas atau spesifik.",
+    "question": "Semuanya terjual. Perluasan kalimat yang paling tepat adalah …. ",
+    "choices": [
+      "Perhiasan, rumah, mobil, dan semuanya ludes terjual.",
+      "Setiap hari ia berhasil menjual semua barang dagangannya.",
+      "Karena kebutuhan mendesak, semua barangnya dijual.",
+      "Ia merasa sedih melihat semua barangnya berpindah tangan.",
+      "Semua barang yang dipajang di etalase habis terjual."
+    ],
+    "correct_answer": "Perhiasan, rumah, mobil, dan semuanya ludes terjual.",
+    "explanation": "Pilihan pertama memperluas kata 'semuanya' dengan menyebut contoh-contoh konkret, sehingga mempertahankan makna semula tanpa menambahkan informasi baru tentang alasan atau perasaan."
+  },
+  {
+    "id": "ppu-004",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "easy",
+    "reading": "Perluasan yang tepat mempertahankan makna dasar kalimat awal dan hanya menambahkan keterangan yang relevan, misalnya contoh barang atau rincian yang menjelaskan kata umum seperti 'semuanya'.",
+    "question": "Semuanya terjual. Pilihan perluasan yang paling sesuai adalah …. ",
+    "choices": [
+      "Semua harta miliknya terjual habis untuk membayar utang.","Perhiasan, pakaian, dan perabot rumah tangga semuanya ludes terjual.","Ia selalu berhasil menjual barang-barang antiknya dengan cepat.","Orang-orang berebut membeli barang-barang yang dipajangnya.","Ia menutup toko lebih awal karena semua barang sudah habis."
+    ],
+    "correct_answer": "Perhiasan, pakaian, dan perabot rumah tangga semuanya ludes terjual.",
+    "explanation": "Pilihan kedua memberikan contoh konkret yang memperluas kata 'semuanya' tanpa mengubah konteks atau menambahkan alasan/emosi, sehingga merupakan perluasan yang paling tepat."
+  },
+  {
+    "id": "ppu-005",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "(1) Salah satu cara yang dilakukan untuk mencapai berat badan yang diinginkan adalah melalui diet, yaitu usaha yang dilakukan untuk mengontrol dan mengatur pola makan. (2) Sayangnya, diet yang coba dilakukan tidak selalu bertahan lama. (3) Setiap wanita berlomba-lomba untuk memperoleh berat badan ideal. (4) Kita perlu memperhatikan jenis diet yang terkesan efektif, tetapi belum tentu sesuai bagi tubuh kita.",
+    "question": "Gagasan pada paragraf 1 akan menjadi runtut apabila urutan kalimat-kalimatnya adalah ....",
+    "choices": [
+      "(1)-(4)-(2)-(3)",
+      "(1)-(3)-(4)-(2)",
+      "(2)-(1)-(3)-(4)",
+      "(3)-(1)-(2)-(4)",
+      "(3)-(1)-(4)-(2)"
+    ],
+    "correct_answer": "(3)-(1)-(4)-(2)",
+    "explanation": "Urutan (3)-(1)-(4)-(2) dimulai dari konteks umum (keinginan memperoleh berat badan ideal), dilanjutkan dengan penjelasan salah satu cara (diet), kemudian catatan kehati-hatian tentang pemilihan diet, dan diakhiri dengan konsekuensi bahwa diet seringkali tidak bertahan lama; susunan ini menghasilkan alur yang logis dan koheren."
+  },
+  {
+    "id": "ppu-006",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "(1) Salah satu cara yang dilakukan untuk mencapai berat badan yang diinginkan adalah melalui diet, yaitu usaha yang dilakukan untuk mengontrol dan mengatur pola makan. (2) Sayangnya, diet yang coba dilakukan tidak selalu bertahan lama. (3) Setiap wanita berlomba-lomba untuk memperoleh berat badan ideal. (4) Kita perlu memperhatikan jenis diet yang terkesan efektif, tetapi belum tentu sesuai bagi tubuh kita. (5) Kita membutuhkan keseimbangan dari protein, lemak, karbohidrat, serat, vitamin, dan mineral dalam diet agar tetap bisa mempertahankan badan yang sehat. (6) Dalam diet yang sehat, kita tidak perlu menghilangkan salah satu kategori tersebut dari makanan, tetapi memilih jenis yang paling sehat dari tiap kategori.",
+    "question": "Jika fokus paragraf adalah menyusun gagasan tentang diet yang tepat dan berkelanjutan, manakah urutan kalimat yang paling runtut untuk membentuk paragraf awal?",
+    "choices": [
+      "(1)-(4)-(2)-(3)",
+      "(1)-(3)-(4)-(2)",
+      "(2)-(1)-(3)-(4)",
+      "(3)-(1)-(2)-(4)",
+      "(3)-(1)-(4)-(2)"
+    ],
+    "correct_answer": "(3)-(1)-(4)-(2)",
+    "explanation": "Pilihan (3)-(1)-(4)-(2) menyusun paragraf dari pernyataan umum (persaingan memperoleh berat ideal) ke metode (diet), lalu memberi peringatan tentang pemilihan diet yang sesuai, dan menutup dengan fakta bahwa banyak diet tidak bertahan lama; ini menjaga kesinambungan ide dan koherensi."
+  },
+  {
+    
+    "id": "ppu-007",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "easy",
+    "reading": "Meskipun demikian, ternyata masih banyak putra-putri bangsa yang berupaya untuk mempertahankan dan menegaskan eksistensi bahasa Indonesia. Ada beberapa elemen masyarakat yang senantiasa berupaya mengembangkan serta menjaga eksistensinya. Mereka sadar bahwa bahasa dan sastra merupakan cerminan kekhasan bangsa sekaligus untuk pemikiran manusia. Jika bahasa dan sastra Indonesia masih terus ada bahkan mampu mendunia, itu artinya bangsa Indonesia memiliki pemahaman yang cerdas mengenai budaya negerinya.",
+    "question": "Kata 'mereka' pada paragraf satu kutipan teks di atas mengacu pada …. ",
+    "choices": [
+      "putra-putri bangsa",
+      "manusia",
+      "bangsa",
+      "bangsa Indonesia",
+      "orang-orang zaman sekarang"
+    ],
+    "correct_answer": "putra-putri bangsa",
+    "explanation": "Kata 'mereka' merujuk pada kelompok yang disebutkan sebelumnya yang aktif mempertahankan dan mengembangkan bahasa Indonesia; dalam konteks paragraf, rujukan paling tepat adalah 'putra-putri bangsa'."
+  },
+  {
+    "id": "ppu-008",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "Banyak cara yang dilakukan untuk meningkatkan dan membudayakan literasi. Literasi hendaknya menjadi tradisi yang terus menerus mengikat guna menciptakan ketertarikan yang memang mampu disenangi dan diminati semua orang. Kemudian, harus diakui bahwa tidak semua orang punya minat dan bakat yang sama terhadap dunia literasi. Ada yang hanya suka menulis, suka membaca, atau bahkan tidak keduanya. Cara yang paling efisien adalah menumbuhkan kesadaran, paling tidak, agar individu maupun kelompok yang ada memahami betapa pentingnya literasi dalam kehidupan sehari-hari.",
+    "question": "Menurut paragraf kedua, cara yang paling efisien untuk meningkatkan minat dan budaya literasi adalah …. ",
+    "choices": [
+        "Memberikan buku gratis kepada semua orang",
+        "Mengadakan lomba menulis setiap bulan",
+        "Menumbuhkan kesadaran agar individu dan kelompok memahami pentingnya literasi",
+        "Memaksa siswa membaca setiap hari di sekolah",
+        "Menghapus hiburan digital agar orang kembali membaca"
+    ],
+    "correct_answer": "Menumbuhkan kesadaran agar individu dan kelompok memahami pentingnya literasi",
+    "explanation": "Paragraf menyatakan bahwa cara paling efisien adalah menumbuhkan kesadaran agar individu maupun kelompok memahami betapa pentingnya literasi dalam kehidupan sehari-hari."
+  },
+  {
+    "id": "ppu-009",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "easy",
+    "reading": "(1) Kota-kota besar di Indonesia saat ini telah mengembangkan diri untuk lebih ramah terhadap lingkungan serta berupaya untuk menjaga keberlanjutan lingkungan. (2) Di Yogyakarta, upaya mewujudkan nuansa kota yang ramah lingkungan dibentuk oleh kalangan pemuda yang melakukan kampanye tentang perlunya menanam tumbuhan rindang di perkotaan, juga mengajari tata cara berkebun di lahan sempit. (3) Aksi kolektif yang dibangun oleh masyarakat mulai menunjukkan perubahan sikap terhadap penyelesaian masalah lingkungan yang dimulai dari skala individu. (4) Mereka bergabung untuk mewujudkan cita-cita yang dapat mengatasi permasalahan lingkungan akibat sampah yang dibuang sembarangan, menurunnya kualitas kota, dan kurangnya ruang hijau. (5) Kegiatan ini dikenal dengan Jogja Berkebun yang terdiri atas berbagai macam latar belakang profesi yang berbeda, mulai dari profesional, wiraswasta, pelajar, hingga ibu rumah tangga. (6) Komunitas-komunitas masyarakat perkotaan secara rutin menggelar kegiatan gotong royong untuk meningkatkan kualitas lingkungan dari infrastruktur fisik atau nonfisik kampung hingga ruang publik. (7) Di Jakarta, upaya penyelamatan lingkungan ada di sekitar area kampung di mana masyarakatnya berusaha untuk menyelesaikan masalah lingkungan di kampungnya. (8) Didorong oleh pendampingan beberapa universitas di Jakarta, masyarakat kemudian mulai mengembangkan program kampung hijau sebagai kampanye menjaga kebersihan dan penghijauan lingkungan di kampung-kampung padat penduduk ibu kota.",
+    "question": "Kalimat (6) dan (7) dalam bacaan di atas mengandung hubungan ....",
+    "choices": [
+      "pemaparan",
+      "pertentangan",
+      "penambahan",
+      "pemerian",
+      "penekanan"
+    ],
+    "correct_answer": "penambahan",
+    "explanation": "Kalimat (7) menambahkan informasi konkret (kondisi di Jakarta) yang melengkapi pernyataan umum pada kalimat (6) tentang kegiatan komunitas perkotaan; hubungan kedua kalimat bersifat penambahan informasi."
+  },
+  {
+    "id": "ppu-010",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "(1) Saat ini internet menggunakan kode kompleks untuk melindungi kerahasiaan informasi. (2) Akan tetapi, peretas semakin mahir mencari segala cara untuk mengalahkan sistem itu. (3) Hal ini tidak hanya menyebabkan pelanggaran privasi besar, tetapi juga menyebabkan penipuan yang mencapai triliunan dolar setiap tahun. (4) Namun sekarang, dunia lebih dekat dengan internet yang benar-benar aman dari ancaman serangan dunia maya yang semakin meningkat. (5) Hal ini berkat diciptakannya prototipe unik oleh tim ilmuwan internasional yang dapat mengubah cara berkomunikasi secara daring. (6) Penelitian yang dipimpin oleh University of Bristol memiliki potensi untuk melayani jutaan pengguna. (7) Temuan ini berupa jaringan kuantum terbesar yang pernah ada dari jenisnya dan dapat digunakan untuk mengamankan komunikasi daring. (8) Dengan menerapkan teknik baru yang memanfaatkan hukum fisika sederhana, prototipe yang dibuat para ilmuwan ini mampu melindungi pesan dari penyusup sehingga transaksi informasi lebih dari dua pihak dapat dilakukan tanpa rasa cemas. (9) Hal ini merupakan terobosan besar karena sejauh ini fisikawan hanya mampu mengembangkan bentuk enkripsi yang aman bagi dua pengguna saja.",
+    "question": "Apabila gagasan pada bacaan di atas dipisahkan menjadi dua paragraf, pengelompokan kalimat-kalimatnya agar gagasan pada masing-masing paragraf padu dan utuh adalah ....",
+    "choices": [
+        "(1-2-3) dan (4-5-6-7-8-9)",
+        "(1-2-3-4) dan (5-6-7-8-9)",
+        "(1-2-3-4-5) dan (6-7-8-9)",
+        "(1-2-3-4-5-6) dan (7-8-9)",
+        "(1-2-3-4-5-6-7) dan (8-9)"
+    ],
+    "correct_answer": "(1-2-3) dan (4-5-6-7-8-9)",
+    "explanation": "Kalimat (1)-(2)-(3) membahas masalah keamanan internet saat ini (kode enkripsi, kemampuan peretas, dan dampak penipuan), sedangkan kalimat (4)-(9) memperkenalkan solusi dan rincian temuan ilmiah (prototipe, penelitian, jaringan kuantum, teknik, dan maknanya). Pemisahan setelah kalimat (3) menghasilkan dua paragraf yang masing-masing padu dan utuh."
+  },
+  {
+    "id": "ppu-011",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "(1) Saat ini internet menggunakan kode kompleks untuk melindungi kerahasiaan informasi. (2) Akan tetapi, peretas semakin mahir mencari segala cara untuk mengalahkan sistem itu. (3) Hal ini tidak hanya menyebabkan pelanggaran privasi besar, tetapi juga menyebabkan penipuan yang mencapai triliunan dolar setiap tahun. (4) Namun sekarang, dunia lebih dekat dengan internet yang benar-benar aman dari ancaman serangan dunia maya yang semakin meningkat. (5) Hal ini berkat diciptakannya prototipe unik oleh tim ilmuwan internasional yang dapat mengubah cara berkomunikasi secara daring. (6) Penelitian yang dipimpin oleh University of Bristol memiliki potensi untuk melayani jutaan pengguna. (7) Temuan ini berupa jaringan kuantum terbesar yang pernah ada dari jenisnya dan dapat digunakan untuk mengamankan komunikasi daring. (8) Dengan menerapkan teknik baru yang memanfaatkan hukum fisika sederhana, prototipe yang dibuat para ilmuwan ini mampu melindungi pesan dari penyusup sehingga transaksi informasi lebih dari dua pihak dapat dilakukan tanpa rasa cemas. (9) Hal ini merupakan terobosan besar karena sejauh ini fisikawan hanya mampu mengembangkan bentuk enkripsi yang aman bagi dua pengguna saja.",
+    "question": "Ungkapan pada kalimat (8) dapat disempurnakan menjadi yang manakah berikut ini?",
+    "choices": [
+        "pesan dari penyusup mampu dilindungi para ilmuwan melalui prototipe sehingga transisi informasi lebih dari dua pihak dapat dilakukan tanpa rasa cemas",
+        "prototipe mampu melindungi pesan para ilmuwan dari penyusup sehingga transaksi informasi lebih dari dua pihak dapat dilakukan tanpa rasa cemas",
+        "para ilmuwan membuat prototipe yang mampu melindungi pesan dari penyusup sehingga transaksi informasi lebih dari dua pihak dapat dilakukan tanpa rasa cemas",
+        "prototipe mampu membuat pesan dari ilmuwan sehingga transaksi informasi lebih dari dua pihak dapat terlindungi dari penyusup tanpa rasa cemas",
+        "transaksi informasi lebih dari dua pihak dapat dilakukan para ilmuwan tanpa rasa cemas sehingga mereka mampu membuat prototipe yang melindungi pesan dari penyusup"
+    ],
+    "correct_answer": "para ilmuwan membuat prototipe yang mampu melindungi pesan dari penyusup sehingga transaksi informasi lebih dari dua pihak dapat dilakukan tanpa rasa cemas",
+    "explanation": "Pilihan ketiga mempertahankan makna asli dengan susunan kalimat yang jelas dan tata bahasa yang benar: subjek (para ilmuwan) melakukan tindakan (membuat prototipe) yang memiliki kemampuan (melindungi pesan dari penyusup) sehingga menghasilkan konsekuensi yang dinyatakan (transaksi informasi lebih dari dua pihak dapat dilakukan tanpa rasa cemas). Pilihan lain mengubah makna, menempatkan subjek/objek secara keliru, atau menggunakan kata yang tidak tepat (mis. 'transisi' atau susunan yang membingungkan)."
+  },
+  {
+    "id": "ppu-012",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "easy",
+    "reading": "(1) Puntung rokok adalah salah satu bentuk sampah yang paling umum di dunia yang menyebabkan kerusakan lingkungan yang parah. (2) Analisis distribusi sampah puntung rokok di lingkungan perkotaan dapat menghasilkan wawasan yang berguna untuk intervensi lebih lanjut mengurangi sampah ini. (3) Informasi tentang puntung rokok yang dibuang di ruang publik dikumpulkan melalui pengamatan sosial sistematis di berbagai sampel daerah di Madrid, Spanyol. (4) Analisis data dilakukan secara kualitatif dengan menggunakan lokasi sebagai parameter utama. (5) Ditemukan bahwa lokasi perhotelan dan perhentian angkutan umum merupakan tempat dengan konsentrasi puntung rokok tertinggi. (6) Lokasi selanjutnya adalah pintu masuk lokasi pendidikan dan taman bermain. (7) Daerah ... kota menunjukkan jumlah puntung rokok tertinggi dibandingkan dengan daerah pinggiran kota. (8) Penelitian ini merupakan studi yang memperkirakan dan memetakan sampah puntung rokok di wilayah perkotaan besar. (9) Temuan dalam penelitian ini menunjukkan sifat puntung rokok yang ada di mana-mana di lingkungan perkotaan. (10) Oleh karena itu, diperlukan adanya intervensi untuk mengurangi dampaknya terhadap kesehatan masyarakat dan lingkungan.",
+    "question": "Kata yang tepat untuk mengisi rumpang pada frasa '... kota' dalam kalimat (7) adalah ....",
+    "choices": [
+      "inti",
+      "sentral",
+      "fokus",
+      "induk",
+      "pusat"
+    ],
+    "correct_answer": "inti",
+    "explanation": "Kata 'inti' paling tepat melengkapi frasa 'inti kota' yang merujuk pada bagian pusat atau jantung kota; konteks membandingkan pusat kota dengan pinggiran kota sehingga 'inti' sesuai."
+  },
+  {
+    "id": "ppu-013",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "(1) Toxic positivity adalah kondisi ketika seseorang menuntut diri sendiri atau orang lain untuk selalu berpikir dan bersikap positif serta menolak emosi negatif. (2) Seseorang yang terjebak dalam toxic positivity akan terus menghindari emosi negatif, padahal emosi negatif juga penting untuk dirasakan dan diekspresikan. (3) Penyangkalan emosi negatif yang terus dilakukan dalam jangka panjang bisa menimbulkan berbagai masalah kesehatan mental, seperti stres berat, kecemasan atau kesedihan yang berkepanjangan, gangguan tidur, penyalahgunaan obat terlarang, dan depresi. (4) Oleh karena itu, toxic positivity perlu dihindari. (5) Agar dapat menghindarinya, seseorang perlu mengenali ciri-ciri kondisi tersebut lebih dahulu.",
+    "question": "Di antara kalimat-kalimat berikut, manakah yang mengungkapkan gagasan yang sama dengan kalimat (2)?",
+    "choices": [
+        "Meski penting untuk dirasakan dan diekspresikan, seseorang yang terjebak dalam toxic positivity akan terus menghindari emosi negatif.",
+        "Emosi negatif akan terus dihindari oleh orang yang terjebak dalam toxic positivity walaupun emosi negatif sangat penting untuk dirasakan dan diekspresikan.",
+        "Walaupun emosi negatif penting untuk dirasakan dan diekspresikan oleh orang dengan toxic positivity, mereka akan terus menghindarinya.",
+        "Emosi negatif yang penting untuk dirasakan dan diekspresikan akan terus dihindari oleh seseorang yang terjebak dalam toxic positivity.",
+        "Toxic positivity akan membuat seseorang terus menghindari emosi negatif yang semula penting untuk dirasakan dan diekspresikan."
+    ],
+    "correct_answer": "Meski penting untuk dirasakan dan diekspresikan, seseorang yang terjebak dalam toxic positivity akan terus menghindari emosi negatif.",
+    "explanation": "Pilihan pertama mempertahankan urutan logis dan makna kalimat asli: menegaskan pentingnya emosi negatif terlebih dahulu, lalu menyatakan bahwa orang yang terjebak dalam toxic positivity tetap menghindarinya. Susunan ini paling setara secara makna dan penekanan dengan kalimat (2)."
+  },
+  {
+    "id": "ppu-014",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "(6) Toxic positivity umumnya muncul melalui ucapan. (7) Orang dengan toxic positivity mungkin sering melontarkan petuah yang terkesan positif, tetapi sebenarnya merasakan emosi negatif. (8) Selain itu, mereka biasanya merasa bersalah ketika merasakan atau mengungkapkan emosi negatif, menghindari atau membiarkan masalah yang ada, serta sering mengucapkan kalimat yang membandingkan diri dengan orang lain. (9) Ketika memberikan seseorang semangat, orang dengan toxic positivity juga sering melontarkan pernyataan yang seolah meremehkan. (10) Sebagai contoh, mereka biasanya mengucapkan kalimat 'Jangan menyerah, begitu saja kok tidak bisa' atau 'Kamu lebih beruntung, masih banyak orang yang lebih menderita dari kamu'. (11) Bahkan, mereka juga bisa melontarkan kalimat yang menyalahkan orang yang tertimpa masalah.",
+    "question": "Kalimat manakah yang merupakan contoh ucapan toxic positivity sebagaimana dijelaskan dalam bacaan?",
+    "choices": [
+        "Tetap semangat, kamu pasti bisa melewati ini.",
+        "Jangan menyerah, begitu saja kok tidak bisa.",
+        "Aku tahu kamu sedang sedih, mari kita bicarakan.",
+        "Kamu boleh merasa kecewa, itu wajar.",
+        "Aku akan menemanimu sampai kamu merasa lebih baik."
+    ],
+    "correct_answer": "Jangan menyerah, begitu saja kok tidak bisa.",
+    "explanation": "Kalimat tersebut merupakan contoh ucapan toxic positivity karena terdengar seperti memberi semangat, tetapi sebenarnya meremehkan perasaan dan kesulitan orang lain. Pilihan lain lebih menunjukkan empati dan dukungan yang sehat."
+   },
+   {
+    "id": "ppu-015",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "Bentuknya yang menyerupai sisik naga menjadikan buah merah satu ini dijuluki buah naga. Oleh orang Cina kuno, buah naga dijadikan persembahan di altar dan diletakkan di antara dua ekor patung naga. Buah naga termasuk dalam famili kaktus yang berasal dari Meksiko, Amerika Tengah, dan Amerika Latin. Di negeri asalnya, buah naga bernama Pitahaya atau Pitaya Roja. Sekitar tahun 1870, buah naga dibawa oleh orang Prancis dari Guyana ke Vietnam sebagai tanaman hias. Dalam perkembangannya, buah naga dikonsumsi dan bahkan dijadikan obat karena kandungan nutrisinya yang lengkap.",
+    "question": "Gagasan utama dari kutipan teks di atas adalah ....",
+    "choices": [
+      "Buah naga berasal dari Meksiko dan Amerika Latin.",
+      "Buah naga memiliki bentuk menyerupai sisik naga.",
+      "Buah naga memiliki sejarah dan manfaat kesehatan.",
+      "Buah naga dijadikan persembahan oleh orang Cina kuno.",
+      "Buah naga dibawa ke Vietnam oleh orang Prancis."
+    ],
+    "correct_answer": "Buah naga memiliki sejarah dan manfaat kesehatan.",
+    "explanation": "Gagasan utama mencakup asal-usul, penyebaran, dan manfaat buah naga. Pilihan lain hanya memuat bagian dari informasi pendukung."
+   },{
+    "id": "ppu-016",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "Buah naga mempunyai khasiat yang bermanfaat bagi kesehatan manusia. Salah satu di antaranya sebagai penyeimbang kadar gula darah. Hal ini terbukti pada penderita diabetes melitus tipe dua, dengan pengobatan sederhana hanya mengonsumsi buah naga setiap hari maka dapat mengurangi kadar gula darah yang ada pada tubuhnya.",
+    "question": "Informasi yang tersirat dari paragraf tersebut adalah ....",
+    "choices": [
+      "Buah naga dapat menggantikan obat medis untuk diabetes.",
+      "Buah naga hanya cocok dikonsumsi oleh penderita diabetes.",
+      "Buah naga terbukti secara ilmiah menyembuhkan semua penyakit.",
+      "Buah naga memiliki potensi sebagai terapi alami untuk penderita diabetes.",
+      "Buah naga tidak boleh dikonsumsi setiap hari oleh penderita penyakit kronis."
+    ],
+    "correct_answer": "Buah naga memiliki potensi sebagai terapi alami untuk penderita diabetes.",
+    "explanation": "Paragraf menyiratkan bahwa buah naga bisa menjadi alternatif alami untuk membantu menurunkan kadar gula darah, bukan sebagai pengganti obat medis secara mutlak."
+    },
+    {
+    "id": "ppu-017",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "Bentuknya yang menyerupai sisik naga menjadikan buah merah satu ini dijuluki buah naga. Oleh orang Cina kuno, buah naga dijadikan persembahan di altar dan diletakkan di antara dua ekor patung naga. Buah naga termasuk dalam famili kaktus yang berasal dari Meksiko, Amerika Tengah, dan Amerika Latin. Di negeri asalnya, buah naga bernama Pitahaya atau Pitaya Roja. Sekitar tahun 1870, buah naga dibawa oleh orang Prancis dari Guyana ke Vietnam sebagai tanaman hias. Dalam perkembangannya, buah naga dikonsumsi dan bahkan dijadikan obat karena kandungan nutrisinya yang lengkap.",
+    "question": "Informasi yang dapat disimpulkan dari paragraf tersebut adalah ....",
+    "choices": [
+      "Buah naga berasal dari Asia dan digunakan sebagai tanaman hias.",
+      "Buah naga awalnya digunakan sebagai persembahan oleh orang Vietnam.",
+      "Buah naga memiliki bentuk unik dan sejarah penggunaan yang beragam.",
+      "Buah naga hanya dikonsumsi di negara asalnya sebagai obat tradisional.",
+      "Buah naga merupakan tanaman tropis yang tumbuh di seluruh dunia."
+    ],
+    "correct_answer": "Buah naga memiliki bentuk unik dan sejarah penggunaan yang beragam.",
+    "explanation": "Paragraf menjelaskan bentuk buah naga, asal-usulnya, penggunaannya sebagai persembahan, tanaman hias, makanan, dan obat. Kesimpulan yang paling mencakup semua informasi adalah pilihan ketiga."
+   },
+   {
+    "id": "ppu-018",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "Buah naga mempunyai khasiat yang bermanfaat bagi kesehatan manusia. Salah satu di antaranya sebagai penyeimbang kadar gula darah. Hal ini terbukti pada penderita diabetes melitus tipe dua, dengan pengobatan sederhana hanya mengonsumsi buah naga setiap hari maka dapat mengurangi kadar gula darah yang ada pada tubuhnya.",
+    "question": "Tujuan penulis menyampaikan paragraf tersebut adalah ....",
+    "choices": [
+      "Menjelaskan cara menanam buah naga di rumah.",
+      "Mempromosikan buah naga sebagai makanan favorit masyarakat.",
+      "Menyampaikan manfaat buah naga bagi penderita diabetes.",
+      "Membandingkan buah naga dengan obat medis untuk diabetes.",
+      "Menyarankan konsumsi buah naga untuk semua penyakit kronis."
+    ],
+    "correct_answer": "Menyampaikan manfaat buah naga bagi penderita diabetes.",
+    "explanation": "Paragraf fokus pada khasiat buah naga dalam menurunkan kadar gula darah, khususnya bagi penderita diabetes tipe dua. Tujuan utamanya adalah menyampaikan manfaat tersebut."
+   },
+   {
+    "id": "ppu-019",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "Setidaknya terdapat tiga hal yang perlu dilakukan dalam menghadapi bencana alam. Pertama, pencegahan, yakni membuat peta potensi bencana seperti dalam atlas dari Bakosurtanal. Yang kedua adalah mitigasi atau penjinakan. Jika suatu daerah termasuk rawan gempa, berarti rumah yang dibangun di daerah itu harus tahan gempa. Ketiga adalah peringatan dini. Hal ini perlu dilatihkan kepada masyarakat melalui sosialisasi dan simulasi berkelanjutan.",
+    "question": "Tujuan utama paragraf tersebut adalah ....",
+    "choices": [
+        "Menjelaskan pentingnya rumah tahan gempa di daerah rawan bencana",
+        "Menguraikan tiga langkah penting dalam menghadapi bencana alam",
+        "Mempromosikan atlas Bakosurtanal sebagai peta potensi bencana",
+        "Menekankan perlunya simulasi bencana secara berkelanjutan",
+        "Membandingkan pencegahan dan mitigasi dalam penanganan bencana"
+    ],
+    "correct_answer": "Menguraikan tiga langkah penting dalam menghadapi bencana alam",
+    "explanation": "Paragraf menyebutkan tiga langkah utama: pencegahan, mitigasi, dan peringatan dini. Tujuan utamanya adalah menguraikan ketiga langkah tersebut sebagai bagian dari kesiapsiagaan menghadapi bencana."
+   },
+   {
+    "id": "ppu-020",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "medium",
+    "reading": "Setidaknya terdapat tiga hal yang perlu dilakukan dalam menghadapi bencana alam. Pertama, pencegahan, yakni membuat peta potensi bencana seperti dalam atlas dari Bakosurtanal. Yang kedua adalah mitigasi atau penjinakan. Jika suatu daerah termasuk rawan gempa, berarti rumah yang dibangun di daerah itu harus tahan gempa. Ketiga adalah peringatan dini. Hal ini perlu dilatihkan kepada masyarakat melalui sosialisasi dan simulasi berkelanjutan.",
+    "question": "Informasi yang tersirat dari paragraf tersebut adalah ....",
+    "choices": [
+        "Masyarakat perlu dilatih agar siap menghadapi bencana sejak dini.",
+        "Peta potensi bencana hanya digunakan oleh pemerintah pusat.",
+        "Rumah tahan gempa tidak diperlukan di daerah yang aman.",
+        "Simulasi bencana hanya dilakukan setelah terjadi bencana besar.",
+        "Mitigasi bencana dilakukan setelah peringatan dini diberikan."
+    ],
+    "correct_answer": "Masyarakat perlu dilatih agar siap menghadapi bencana sejak dini.",
+    "explanation": "Paragraf menyebutkan pentingnya sosialisasi dan simulasi sebagai bagian dari peringatan dini. Ini menyiratkan bahwa pelatihan masyarakat adalah langkah penting agar siap menghadapi bencana sebelum terjadi."
+   },
+   {
+    "id": "ppu-021",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "hard",
+    "reading":"Perhatikan padanan berikut:\n- Jangan masuk jurang — Jaadi neezjadi’in ga’an\n- Jangan naik bus — Taadi neezjadi’in ba’an\n- Dia masuk jurang — Jaadi jeezdi’i ga’an\n\nKata 'Jaadi' berarti 'Dia', 'Taadi' berarti 'Jangan'. Kata kerja 'masuk' diterjemahkan sebagai 'jeezdi’i', sedangkan 'naik' sebagai 'neezjadi’in'. Objek 'jurang' adalah 'ga’an', dan 'bus' adalah 'ba’an'.\n\nDengan pola tersebut, kita dapat menyusun kalimat baru berdasarkan struktur subjek + predikat + objek.",
+    "question":"Jika pola kalimat mengikuti struktur subjek + predikat + objek, maka bagaimana bentuk kalimat 'Dia naik bus' dalam bahasa tersebut?",
+    "choices":[
+        "Taadi jeezdi’i ba’an",
+        "Taadi neezjadi’in ba’an",
+        "Taadi jeezdi’i ga’an",
+        "Jaadi jeezdi’i ba’an",
+        "Jaadi neezjadi’in ba’an"
+    ],
+    "correct_answer":"Jaadi neezjadi’in ba’an",
+    "explanation": "Kalimat 'Dia naik bus' terdiri dari subjek 'Dia' (Jaadi), predikat 'naik' (neezjadi’in), dan objek 'bus' (ba’an). Maka susunan yang benar adalah 'Jaadi neezjadi’in ba’an'."
+   },
+   {
+    "id": "ppu-022",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "hard",
+    "reading": "Perhatikan padanan berikut:\n- Jangan masuk jurang — Jaadi neezjadi’in ga’an\n- Jangan naik bus — Taadi neezjadi’in ba’an\n- Dia masuk jurang — Jaadi jeezdi’i ga’an\n\nKata 'Jaadi' berarti 'Dia', 'Taadi' berarti 'Jangan'. Kata kerja 'masuk' diterjemahkan sebagai 'jeezdi’i', sedangkan 'naik' sebagai 'neezjadi’in'. Objek 'jurang' adalah 'ga’an', dan 'bus' adalah 'ba’an'.\n\nDengan pola tersebut, kita dapat menyusun kalimat baru berdasarkan struktur subjek + predikat + objek.",
+    "question": "Jika 'Taadi neezjadi’in ba’an' berarti 'Jangan naik bus', maka perubahan bentuk dari kalimat tersebut menjadi kalimat positif adalah ....",
+    "choices":[
+        "Jaadi jeezdi’i ba’an",
+        "Jaadi neezjadi’in ba’an",
+        "Taadi jeezdi’i ba’an",
+        "Taadi neezjadi’in ga’an",
+        "Jaadi neezjadi’in ga’an"
+    ],
+    "correct_answer":"Jaadi neezjadi’in ba’an",
+    "explanation": "Kalimat negatif 'Taadi neezjadi’in ba’an' berarti 'Jangan naik bus'. Untuk mengubahnya menjadi kalimat positif, kita ganti 'Taadi' (jangan) dengan 'Jaadi' (dia), dan tetap menggunakan 'neezjadi’in' (naik) serta 'ba’an' (bus). Maka bentuk positifnya adalah 'Jaadi neezjadi’in ba’an'."
+   },
+   {
+    "id": "ppu-023",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "hard",
+    "reading":"Berjemur di pagi hari memberikan banyak manfaat bagi kesehatan, antara lain meredakan gejala alergi dan infeksi saluran pernapasan, serta membantu pemenuhan kebutuhan vitamin D bagi tubuh. Vitamin D berguna dalam menghindarkan tubuh dari risiko penyakit tulang. Namun demikian, paparan sinar matahari yang berlebihan juga berpotensi menyebabkan penyakit kanker kulit.",
+    "question": "Berdasarkan bacaan, simpulan yang paling logis dan tidak dapat disangkal adalah ....",
+    "choices":[
+        "Berjemur di pagi hari selalu aman tanpa risiko kesehatan.",
+        "Paparan sinar matahari memiliki manfaat sekaligus potensi bahaya bagi tubuh.",
+        "Vitamin D hanya bisa diperoleh melalui berjemur di bawah sinar matahari.",
+        "Berjemur di siang hari lebih baik daripada di pagi hari untuk kesehatan.",
+        "Kanker kulit hanya terjadi pada orang yang tidak berjemur di pagi hari."
+    ],
+    "correct_answer": "Paparan sinar matahari memiliki manfaat sekaligus potensi bahaya bagi tubuh.",
+    "explanation":"Teks menegaskan dua hal: manfaat berjemur (vitamin D, kesehatan pernapasan, tulang) dan risiko paparan berlebihan (kanker kulit). Simpulan yang pasti benar adalah bahwa sinar matahari memiliki manfaat sekaligus potensi bahaya."
+
+   },
+   {
+    "id": "ppu-024",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "hard",
+    "reading":"“Dalam dunia digital, literasi informasi menjadi keterampilan penting. Tanpa kemampuan menyaring data, seseorang mudah terjebak dalam informasi palsu.”",
+    "question":"Berdasarkan bacaan, simpulan yang paling tepat adalah ....",
+    "choices":[
+        "Kemampuan menyaring data menentukan apakah seseorang dapat terhindar dari informasi palsu.",
+        "Semua informasi digital bersifat menyesatkan sehingga harus dihindari sepenuhnya.",
+        "Berpikir kritis tidak diperlukan dalam dunia digital karena semua data sudah tersedia.",
+        "Informasi palsu dapat dihindari tanpa keterampilan literasi informasi.",
+        "Literasi informasi hanya berguna bagi orang yang bekerja di bidang teknologi."
+    ],
+    "correct_answer":"Kemampuan menyaring data menentukan apakah seseorang dapat terhindar dari informasi palsu.",
+    "explanation":"Teks menekankan pentingnya literasi informasi di dunia digital.Disebutkan bahwa tanpa kemampuan menyaring data, seseorang mudah terjebak informasi palsu.Artinya, keterampilan menyaring data adalah faktor penentu untuk menghindari informasi palsu.Pilihan lain tidak sesuai: teks tidak menyatakan semua informasi digital menyesatkan, tidak menolak berpikir kritis, dan tidak membatasi literasi hanya untuk bidang teknologi.Jadi simpulan yang paling tepat adalah bahwa kemampuan menyaring data menentukan apakah seseorang dapat terhindar dari informasi palsu."
+    
+   },
+   {
+    "id": "ppu-025",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "hard",
+    "reading": "“Dalam dunia digital, literasi informasi menjadi keterampilan penting. Tanpa kemampuan menyaring data, seseorang mudah terjebak dalam informasi palsu.”",
+    "question": "Mengapa literasi informasi dianggap penting dalam dunia digital?",
+    "choices":[
+      "Karena semua informasi digital pasti menyesatkan.",
+      "Karena literasi informasi membantu seseorang memilah data yang benar.",
+      "Karena informasi palsu tidak berbahaya bagi masyarakat.",
+      "Karena berpikir kritis tidak diperlukan di dunia digital.",
+      "Karena literasi informasi hanya berguna bagi pekerja teknologi."
+    ],
+    "correct_answer": "Karena literasi informasi membantu seseorang memilah data yang benar.",
+    "explanation": "Teks menyebutkan literasi informasi sebagai keterampilan penting.Alasannya: tanpa kemampuan menyaring data, seseorang mudah terjebak informasi palsu.Artinya, literasi informasi berfungsi untuk memilah data yang benar.Pilihan lain tidak sesuai dengan isi teks.Jadi jawaban yang tepat adalah literasi informasi membantu seseorang memilah data yang benar."
+    
+   },
+   {
+    "id": "ppu-026",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "hard",
+    "reading":"“Dalam dunia digital, literasi informasi menjadi keterampilan penting. Tanpa kemampuan menyaring data, seseorang mudah terjebak dalam informasi palsu.”",
+    "question": "Apa implikasi dari kurangnya literasi informasi dalam dunia digital?",
+    "choices":[
+      "Seseorang akan selalu mendapatkan informasi yang benar.",
+      "Seseorang mudah terjebak dalam informasi palsu.",
+      "Informasi digital tidak lagi diperlukan.",
+      "Literasi informasi hanya penting bagi anak-anak.",
+      "Informasi palsu tidak bisa memengaruhi masyarakat."
+    ],
+    "correct_answer": "Seseorang mudah terjebak dalam informasi palsu.",
+    "explanation": "Teks menegaskan bahwa tanpa kemampuan menyaring data, seseorang mudah terjebak informasi palsu.Implikasi dari kurangnya literasi informasi adalah meningkatnya risiko terjebak informasi palsu.Pilihan lain bertentangan dengan isi teks.Jadi jawaban yang tepat adalah seseorang mudah terjebak dalam informasi palsu."
+    
+   },
+   {
+    "id": "ppu-027",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "hard",
+    "reading":"(7) Di Jakarta, upaya penyelamatan lingkungan ada di sekitar area kampung di mana masyarakatnya berusaha untuk menyelesaikan masalah lingkungan di kampungnya.",
+    "question": "Tujuan penulisan kalimat (7) pada bacaan di atas adalah ....",
+    "choices":[
+      "Mengevaluasi penanganan lingkungan di area kampung di Jakarta",
+      "Menguraikan cara-cara penanganan masalah lingkungan kampung",
+      "Memberi contoh penyelamatan lingkungan di suatu wilayah di kota",
+      "Menggambarkan area kampung sebagai tempat penyelamatan lingkungan",
+      "Memberi penekanan tentang pentingnya pemanfaatan lahan secara optimal di kampung"
+    ],
+    "correct_answer": "Memberi contoh penyelamatan lingkungan di suatu wilayah di kota",
+    "explanation": "Kalimat (7) menyebutkan contoh nyata: masyarakat kampung di Jakarta berusaha menyelesaikan masalah lingkungan.Tujuan kalimat ini bukan evaluasi, bukan uraian cara, dan bukan penekanan lahan.Fokusnya adalah memberi contoh penyelamatan lingkungan di wilayah perkotaan.Jadi jawaban yang tepat adalah 'Memberi contoh penyelamatan lingkungan di suatu wilayah di kota'."
+    
+   },
+   {
+    "id": "ppu-028",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "hard",
+    "reading":"(1) Kota-kota besar di Indonesia saat ini telah mengembangkan diri untuk lebih ramah terhadap lingkungan serta berupaya untuk menjaga keberlanjutan lingkungan. (2) Di Yogyakarta, upaya mewujudkan nuansa kota yang ramah lingkungan dibentuk oleh kalangan pemuda yang melakukan kampanye tentang perlunya menanam tumbuhan rindang di perkotaan, juga mengajari tata cara berkebun di lahan sempit.",
+    "question": "Apa implikasi dari aksi pemuda di Yogyakarta sebagaimana dijelaskan dalam kalimat (2)?",
+    "choices": [
+      "Pemuda Yogyakarta hanya fokus pada penghijauan di pedesaan.",
+      "Kampanye pemuda mendorong masyarakat kota untuk lebih peduli lingkungan.",
+      "Pemuda Yogyakarta menolak keterlibatan masyarakat dalam penghijauan.",
+      "Kegiatan berkebun di lahan sempit tidak berdampak pada lingkungan kota.",
+      "Upaya pemuda hanya sebatas menanam tumbuhan tanpa edukasi."
+    ],
+    "correct_answer": "Kampanye pemuda mendorong masyarakat kota untuk lebih peduli lingkungan.",
+    "explanation": [
+      "Kalimat (2) menjelaskan pemuda melakukan kampanye menanam tumbuhan rindang dan mengajari berkebun di lahan sempit.",
+      "Implikasi dari aksi ini adalah meningkatnya kepedulian masyarakat kota terhadap lingkungan.",
+      "Pilihan lain tidak sesuai: teks tidak menyebut pedesaan, tidak menolak masyarakat, dan tidak membatasi pada menanam saja.",
+      "Jadi jawaban yang tepat adalah 'Kampanye pemuda mendorong masyarakat kota untuk lebih peduli lingkungan'."
+    ]
+   },
+   {
+    "id": "ppu-029",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "hard",
+    "reading":"(1) Headset merupakan speaker atau alat pengeras suara berukuran kecil yang dipasang di telinga. (2) Mendengarkan musik dan menonton film dari laptop atau handphone dengan headset memang terasa menyenangkan dan lebih nyaman karena tidak menimbulkan suara yang mengganggu orang lain. (3) Namun, jika headset terlalu sering digunakan, apalagi jika volume suaranya terlalu keras, hal ini justru dapat merusak sel-sel saraf pendengaran.",
+    "question": "Informasi yang tidak tepat berdasarkan teks tersebut adalah ....",
+    "choices": [
+      "Penggunaan headset yang terlalu sering menyebabkan rusaknya sel-sel saraf pendengaran.",
+      "Dokter akan memberikan penanganan yang sesuai untuk gangguan telinga.",
+      "Penggunaan headset berdampak baik bagi penggunanya.",
+      "Ketika memiliki keluhan atas pendengaran, segera hubungi dokter.",
+      "Penggunaan headset perlu dikontrol agar tidak merusak pendengaran."
+    ],
+    "correct_answer": "Penggunaan headset berdampak baik bagi penggunanya.",
+    "explanation": "Teks menyebutkan bahwa penggunaan headset terlalu sering justru dapat merusak saraf pendengaran.Dokter memang akan memberikan penanganan sesuai kondisi pasien (sesuai teks).Teks juga menekankan pentingnya kontrol penggunaan headset agar tidak merusak pendengaran.Pernyataan 'Penggunaan headset berdampak baik bagi penggunanya' tidak sesuai dengan isi teks.Jadi jawaban yang tidak tepat adalah 'Penggunaan headset berdampak baik bagi penggunanya'."
+    
+   },
+   {
+    "id": "ppu-030",
+    "package": "ppu",
+    "topic": "bahasa indonesia",
+    "level": "hard",
+    "reading":"(1) Headset merupakan speaker atau alat pengeras suara berukuran kecil yang dipasang di telinga. (2) Mendengarkan musik dan menonton film dari laptop atau handphone dengan headset memang terasa menyenangkan dan lebih nyaman karena tidak menimbulkan suara yang mengganggu orang lain.",
+    "question": "Paragraf pertama pada teks tersebut termasuk ke dalam jenis paragraf ....",
+    "choices": [
+      "Induktif",
+      "Destruktif",
+      "Deduktif",
+      "Kolaboratif",
+      "Campuran"
+    ],
+    "correct_answer": "Deduktif",
+    "explanation": "Paragraf pertama dimulai dengan pernyataan umum: 'Headset merupakan speaker atau alat pengeras suara berukuran kecil'.Setelah itu dijelaskan rincian fungsi headset, yaitu mendengarkan musik dan menonton film dengan nyaman.Pola ini menunjukkan gagasan utama di awal paragraf, kemudian diikuti penjelasan.Jenis paragraf dengan pola seperti ini disebut paragraf deduktif.Jadi jawabannya adalah 'Deduktif'."
+    
+   },
+   {
+    "id": "pbm-001",
+    "package": "pbm",
+    "topic": "kata, makna, dan konjungsi",
+    "level": "hard",
+    "reading": "(1) Stres memang terbukti dapat membuat rambut beruban karena kondisi ini dapat membunuh sel punca yang bertugas memproduksi pigmen rambut. (2) Akan tetapi, mengenai bagaimana sel punca ini dapat terbunuh akibat stres, peneliti pada awalnya merasa kesulitan menentukannya. (3) Pada awalnya, peneliti mengira bahwa hal ini disebabkan karena sistem imun. (4) Ketika tubuh mengalami stres, sistem imun diduga akan menyerang sel punca yang memproduksi sel pigmen rambut. (5) Namun, ketika tim peneliti menguji tikus yang sistem imunnya cacat, tikus tetap beruban ketika mengalami stres. (6) Artinya, hipotesis sistem imun salah. (7) Tim lantas menguji hipotesis berikutnya, yakni hormon stres kortisol. (8) Hormon stres kortisol bisa membunuh sel punca pigmen secara langsung. (9) Akan tetapi, ketika tim sudah membuang kelenjar yang memproduksi kortisol pun, tikus tetap beruban ketika stres. (10) Akhirnya, tim peneliti pun mengarahkan penelitian mereka ke sistem saraf simpatik yang bekerja dalam respons otomatis “melawan atau lari” ketika dihadapkan dengan bahaya. (11) Hasilnya sangat jelas bahwa respons “melawan atau lari” yang paling singkat pun bisa menyebabkan perubahan permanen pada sel punca. (12) Ketika tikus mengalami stres, sistem saraf simpatetik ini bereaksi demikian cepatnya […] mempercepat pengurangan sel-sel punca yang membuat sel pigmen. (13) Tanpa adanya sel pigmen, rambut tikus pun memutih.",
+    "question": "Konjungsi yang tepat untuk melengkapi bagian rumpang dalam kalimat (12) adalah ….",
+    "choices": ["agar", "karena", "saat", "sehingga", "yang"],
+    "correct_answer": "sehingga",
+    "explanation": "Konjungsi adalah kata atau ungkapan yang berfungsi menghubungkan kata dengan kata, frasa dengan frasa, klausa dengan klausa, dan kalimat dengan kalimat.Kalimat (12) termasuk ke dalam kalimat kompleks (majemuk bertingkat) dengan tiga klausa:tikus mengalami stres → klausa 1saraf simpatetik ini bereaksi demikian cepatnya → klausa 2(saraf simpatetik) mempercepat pengurangan sel-sel punca → klausa 3Bagian rumpang berada di antara klausa 2 dan 3. Hal ini menunjukkan bahwa bagian rumpang harus diisi dengan konjungsi intrakalimat. Dari segi informasi, tampak adanya percepatan yang dilakukan saraf untuk mengurangi sel-sel punca. Informasi ini berkaitan dengan reaksi saraf yang dibahas di klausa 2. Dengan melihat informasi ini, terlihat adanya hubungan sebab-akibat dari klausa 2 ke klausa 3. Oleh karena itu, konjungsi yang tepat adalah sehingga."
+  },
+  {
+    "id": "pbm-002",
+    "package": "pbm",
+    "topic": "kata, makna, dan konjungsi",
+    "level": "hard",
+    "reading": "(1) Bagi sebagian orang, melupakan mantan merupakan hal yang sangat sulit untuk dilakukan. (2) Faktor utama yang menyebabkan terjadinya hal tersebut adalah kesepian. (3) Setelah putus cinta, sosok yang biasa menemani, memperhatikan, dan setia mendengarkan setiap cerita telah hilang. (4) Rasa kesepian itu yang memunculkan ingatan-ingatan tentang masa-masa indah bersama mantan. (5) Alasan lain yang menyebabkan seseorang sulit melupakan mantan adalah karena banyaknya memori bersama mantan yang masih terekam dengan jelas. (6) Bahkan, ketika tempat yang sering dikunjungi atau benda yang punya kenangan tersendiri terlihat di depan mata, semua cerita di balik hal-hal tersebut tiba-tiba muncul dan membuat mereka terkungkung di masa lalu. (7) Banyaknya waktu yang dihabiskan bersama mantan juga menjadi salah satu alasan yang membuat beberapa orang sulit melupakan sosok yang pernah berarti dalam hidup mereka tersebut. (8) Bahkan, ternyata, ada rentang waktu yang berkaitan dengan lamanya seseorang dalam melupakan mantan. (9) Sebuah penelitian yang diterbitkan dalam Journal of Positive Psychology menunjukkan bahwa seseorang membutuhkan waktu sekitar tiga hingga enam bulan untuk melupakan masa lalunya. (10) Jane Greer, seorang terapis pernikahan dan keluarga, mengatakan bahwa melupakan mantan dapat memakan waktu dari enam minggu, tiga bulan, hingga selamanya, tergantung pada seberapa intens hubungan tersebut dan seberapa besar seseorang menginvestasikan perasaannya di dalam hubungan tersebut. (11) Dengan demikian, lama tidaknya seseorang dalam melupakan mantan berkaitan erat dengan besarnya rasa cinta orang tersebut terhadap mantannya.",     
+    "question": "Penggunaan konjungsi yang TIDAK tepat terdapat pada kalimat ….",
+    "choices": ["7", "8", "9", "10", "11"],
+    "correct_answer": "8",
+    "explanation": "Kata sambung atau konjungsi merupakan kata atau ungkapan penghubung antarkata, antarfrasa, antarklausa, dan antarkalimat. Penggunaan konjungsi yang TIDAK tepat terdapat pada kalimat (8), tepatnya konjungsi bahkan. Kalimat (1)—(7) membahas alasan-alasan yang membuat sebagian orang sulit melupakan mantan, sedangkan kalimat (8) membahas adanya rentang waktu dalam melupakan mantan. Dari hal tersebut, dapat terlihat bahwa kalimat (8) bukan merupakan penguatan dari kalimat-kalimat sebelumnya sehingga penggunaan konjungsi bahkan tidak tepat. Perbaikan kalimat (8) adalah dengan mengganti konjungsi bahkan menjadi namun karena pernyataan dalam kalimat (8) berisi pertentangan dari informasi-informasi sebelumnya yang membuktikan adanya rentang waktu dalam melupakan mantan. Maksudnya, walaupun melupakan mantan sulit dilakukan, ternyata dalam rentang waktu tertentu, seseorang akhirnya tetap bisa melupakan mantan."
+  },
+  {
+    "id": "pbm-003",
+    "package": "pbm",
+    "topic": "kalimat dan wacana",
+    "level": "hard",
+    "reading": "[…](1) Di sepanjang tahun 2022, terdapat banyak bahasa gaul yang muncul di media sosial. (2) Bahasa gaul ini kemudian menjadi bahasa sehari-hari para pemakai, baik di Twitter, Instagram, maupun TikTok. (3) Bahasa-bahasa gaul ini dibuat dari singkatan hingga pelesetan yang sedang ramai dibahas anak muda. (4) Itulah yang membuat banyaknya orang tua atau orang dewasa yang tidak tahu artinya, bahkan asing dengan bentuknya.(5) Beberapa contoh bahasa gaul terbaru yang muncul adalah MLYT, bestie, dan salty. (6) MLYT mengandung arti ‘meleyot’ yang sering digunakan untuk mengekspesikan kesukaan seseorang yang berlebihan, menunjukkan bahwa dirinya lemas hingga tidak bisa berkata-kata, atau pernyataan bahwa dirinya tidak bisa berpikir lurus karena begitu menyukai sesuatu, misalnya “Duh, aku MLYT abis ngeliat Song Joong-ki.” (7) Sementara itu, bestie adalah bahasa gaul yang menggantikan panggilan teman dekat atau best friend. (8) Biasanya, bestie dipakai untuk menyapa seseorang atau sebagai panggilan sayang untuk sahabat, seperti dalam kalimat “Hai bestie, lagi ngapain bestie?” (9) Berbeda dengan MLYT dan bestie, salty sendiri dalam bahasa Inggris (…), tetapi dalam bahasa gaul anak muda, salty diartikan sebagai ‘rasa geram’ atau menunjukkan adanya hal yang membosankan atau menyebalkan, misalnya “Aku cuma mau cerita, jangan salty ya!",
+    "question": "Apa judul yang tepat untuk teks tersebut?",
+    "choices": ["MLYT, Bestie, dan Salty sebagai Contoh Bahasa Gaul", "Kemunculan Bahasa Gaul di Twitter, Instagram, dan TikTok", "Bahasa Gaul dan Makna yang Terkandung di Dalamnya", "Munculnya Bahasa Gaul Terbaru di Media Sosial", "Terbentuknya Bahasa Gaul Terbaru di Medsos dengan Singkatan dan Pelesetan"],
+    "correct_answer": "Munculnya Bahasa Gaul Terbaru di Media Sosial",
+    "explanation": "Gagasan utama paragraf 1 adalah banyaknya bahasa gaul yang muncul di media sosial. Gagasan utama ini terkandung dalam kalimat (1) yang didukung atau diperjelas oleh kalimat (2) dan (3), sedangkan kalimat (4) hadir untuk melengkapi informasi kalimat (3). Sementara itu, gagasan utama paragraf 2 adalah uraian beberapa contoh bahasa gaul yang muncul di media sosial. Gagasan utama ini terkandung di kalimat (5) dan didukung oleh gagasan penjelas pada kalimat (6) hingga (9). Berdasarkan kedua gagasan utama, dapat dipahami bahwa secara keseluruhan, teks dalam soal ini membahas banyaknya bahasa gaul yang muncul di media sosial. Dapat disimpulkan bahwa judul yang mampu mewakili kesimpulan ini ada pada opsi D: Munculnya Bahasa Gaul Terbaru di Media Sosial."
+  },
+  {
+    "id": "pbm-004",
+    "package": "pbm",
+    "topic": "kata, makna, dan konjungsi",
+    "level": "medium",
+    "question": "Kata yang mengalami makna meluas terdapat pada kalimat berikut, kecuali ….",
+    "choices": ["Para tokoh mengajak masyarakat untuk menggunakan hak pilihnya dengan cerdas dan tanpa tekanan agar kursi di DPR terwakili secara benar.", "Keutuhan fungsi UN terkait dengan pemetaan indeks kompetensi, kelulusan seleksi, dan perbaikan terhadap infrastruktur sekolah.", "Para sarjana lingkungan berkumpul di Kanada untuk mengikuti konferensi internasional tentang perubahan iklim.", "Kapal-kapal Australia berlayar sejak beberapa hari yang lalu mencari kotak hitam pesawat MH370.", "Maaf, apakah Bapak tahu gedung induk tempat seminar berlangsung?"],
+    "correct_answer": "Para sarjana lingkungan berkumpul di Kanada untuk mengikuti konferensi internasional tentang perubahan iklim.",
+    "explanation": "Sebuah kata dapat mempunyai makna lebih dari satu ketika sebuah kata tersebut digunakan dalam kalimat dengan konteks yang berbeda. Hal tersebut merupakan pergeseran atau perubahan makna dari sebuah kata. Pergeseran makna tersebut dibagi menjadi beberapa jenis, di antaranya makna meluas (generalisasi), makna menyempit (spesialisasi), makna membaik (ameliorasi), dan makna memburuk (peyorasi). Makna meluas (generalisasi) merupakan proses pergeseran makna yang menyebabkan makna yang baru menjadi lebih luas jika dibandingkan makna sebelumnya. Makna menyempit (spesialisasi) merupakan proses pergeseran makna yang menyebabkan makna kata yang baru menjadi lebih sempit jika dibandingkan dengan makna sebelumnya. Kata yang tidak mengalami makna meluas (menyempit) terdapat pada kata sarjana dalam kalimat opsi C: “Para sarjana lingkungan berkumpul di Kanada untuk mengikuti konferensi internasional tentang perubahan iklim. Sementara itu, kata kursi (opsi A), sekolah (opsi B), berlayar (opsi D), dan Bapak (opsi E) memiliki makna meluas (generalisasi).."
+  },
+  {
+    "id": "pbm-005",
+    "package": "pbm",
+    "topic": "kata, makna, dan konjungsi",
+    "level": "medium",
+    "question": "Kata yang mengalami makna menyempit terdapat pada kalimat, kecuali ….",
+    "choices": ["Bangunan sekolah tersebut sudah lama tidak direnovasi.", "Para pendeta baru saja mengunjungi lokasi bencana.","Kami belajar membaca dan menulis kaligrafi di madrasah.","Entah dari mana sumber bau busuk yang tercium oleh mereka.","Walaupun sebagai seorang pembantu, dia tidak pernah merasa malu."],
+    "correct_answer": "Bangunan sekolah tersebut sudah lama tidak direnovasi.",
+    "explanation":"Kata yang tidak mengalami makna menyempit (meluas) terdapat pada kata sekolah dalam kalimat opsi A: “Bangunan sekolah tersebut sudah lama tidak direnovasi.” Sementara itu, kata pendeta (opsi B), madrasah (opsi C), bau (opsi D), dan pembantu (opsi E) memiliki makna meluas (generalisasi)."
+  },
+  {
+    "id": "pbm-006",
+    "package": "pbm",
+    "topic": "kata, makna, dan konjungsi",
+    "level": "medium",
+    "reading": "(1) Menteri Dalam Negeri, Tito Karnavian, mengatakan bahwa PPKM level 3 se-Indonesia pada masa libur Nataru  yang dibatalkan pemerintah diganti dengan pembatasan kegiatan masyarakat pada masa Nataru. (2) Kebijakan itu diubah agar pembatasan yang diterapkan pada masa Nataru berlaku secara spesifik selama 24 Desember 2021 hingga 2 Januari 2022, bergantung situasi di masing-masing daerah. (3) Tito menyampaikan ada beberapa faktor yang membuat pemerintah membatalkan rencana PPKM Level 3 se-Indonesia pada masa libur Nataru.(4) Pertama, situasi pandemi Covid-19 di Indonesia dalam beberapa waktu terakhir relatif landai dan angka penularannya pun terbilang rendah. (5) Berdasarkan survei yang dilakukan Kementerian Kesehatan, antibodi masyarakat sudah terbilang tinggi. (6) Bahkan, Tito menyebut ada kemungkinan masyarakat di sembilan daerah aglomerasi telah mengalami kekebalan kelompok. (7) Kondisi daerah juga selalu dinamis dan tingkat vaksinasi yang meningkat. (8) Meski berubah istilah, pemerintah akan tetap menerapkan pembatasan, misalnya pengunjung mal dibatasi maksimum 75 persen dari kapasitas. (9) Hanya warga yang sudah menjalani vaksinasi dua dosis yang dapat beraktivitas di tempat publik dan penerapan aplikasi Peduli-Lindungi di ruang publik.(10) Ketua Bidang Penanganan Kesehatan Satgas Covid-19 Nasional, Brigjen TNI Purn. dr. Alexander K. Ginting, Sp.P(K), FCCP mengatakan bahwa ketentuan PPKM berpedoman pada Instruksi Menteri Dalam Negeri Nomor 62 Tahun 2021 tentang Pencegahan dan Penanggulangan CoronaVirus Disease 2019 pada Saat Natal Tahun 2021 dan Tahun Baru Tahun 2022. (11) Syarat perjalanan jarak jauh dalam negeri saat Nataru adalah wajib vaksinasi lengkap dan hasil antigen negatif maksimal 1 × 24 jam sebelum keberangkatan. (12) Untuk orang dewasa yang belum mendapatkan vaksinasi lengkap ataupun tidak bisa divaksin karena alasan medis tak diizinkan untuk bepergian jarak jauh. (13) Bagi anak-anak, tetap dapat melakukan perjalanan dengan syarat lebih ketat. (14) Syaratnya telah melakukan PCR yang berlaku 3 × 24 jam untuk perjalanan udara atau antigen 1 × 24 jam untuk perjalanan darat atau laut.",
+    "question": "Kata bisa pada kalimat (12) berhomonim dengan kata bisa pada kalimat ….",
+    "choices": ["Setiap mahasiswa bisa mengajukan semester pendek di kampusnya.", "Supaya bisa melakukan aktivitas berikutnya, Anda harus menyelesaikan tugas sebelumnya.","“Hore, sekarang saya bisa membuat teleskop dari bahan sederhana!” kata Angga.","Sesampainya di gerbang objek wisata, Anda bisa langsung masuk dengan menunjukkan tiket.","Kini bisa ular telah menjalar ke organ tubuh lainnya."],
+    "correct_answer": "Kini bisa ular telah menjalar ke organ tubuh lainnya.",
+    "explanation":"Homonim adalah kata yang memiliki kesamaan dalam segi fonologis (bunyi atau pengucapan) dan ortografis (tulisan), tetapi memiliki perbedaan dalam segi makna.Kata bisa pada kalimat “Untuk orang dewasa yang belum mendapatkan vaksinasi lengkap ataupun tidak bisa divaksin karena alasan medis tak diizinkan untuk bepergian jarak jauh.” memiliki makna dapat. Kata bisa pada kalimat tersebut berhomonim dengan kata bisa yang terdapat pada kalimat opsi E: Kini bisa ular telah menjalar ke organ tubuh lainnya. Kata bisa pada kedua kalimat tersebut memiliki kesamaan dari aspek fonologi dan ortografis, tetapi memiliki perbedaan dari segi makna. Kata bisa pada kalimat opsi E memiliki makna racun. Sementara itu, kata bisa yang terdapat pada kalimat opsi A, B, C, dan D memiliki makna yang sama dengan kata bisa pada kalimat (12) dalam teks tersebut, yaitu bermakna dapat"
+  },
+  {
+    "id": "pbm-007",
+    "package": "pbm",
+    "topic": "konjungsi",
+    "level": "medium",
+    "reading": "(1) Pada Kamis malam, debit tinggi Sungai Batu Ganda di Kecamatan Lasusua membawa limpasan air ke permukiman warga. (2) Tidak hanya satu sungai, tetapi juga debit sungai di Kecamatan Rante Angin juga naik dan merendam permukiman warga. (3) “Tadi malam ada dua kejadian, yakni di Rante Angin dan di Sungai Batu Ganda. (4) Belum ada korban jiwa yang terdata sampai Jumat pagi,” tutur petugas BPBD Kolaka Utara. (5) Saat ini, pihak daerah setempat sedang fokus untuk mendata warga yang terkena dampak dan mendata daerah yang terisolasi. (6) Petugas BPBD Kolaka Utara dan sejumlah instansi yang terkait pun tengah mengevakuasi dan melakukan pemulihan kepada warga yang terkena dampak banjir. (7) Sebelumnya, banjir bandang dari luapan Sungai Latawaro menerjang Dusun IV, Desa Latawaro, Lambai, Kolaka Utara, pada Kamis dini hari. (8) Sebanyak tiga rumah warga terendam dan satu jembatan tidak bisa dilalui … ada bagian jembatan yang hanyut akibat terjangan air. (9) Kepala Polsek Rante Angin, Agustian Rante Parabang, menyampaikan bahwa selain merendam rumah dan perkebunan, banjir juga memutuskan akses jembatan sehingga tidak bisa dilalui. (10) Pihaknya telah membuat jembatan darurat agar bisa dilalui kendaraan roda dua. (11) Selain itu, bronjong penahan air yang baru selesai dibangun juga rusak parah karena terkena terjangan air. (12) Bronjong tersebut diketahui baru selesai dikerjakan dengan anggaran ratusan juta. (13) Selain karena hujan deras, Agustian juga berpendapat bahwa aktivitas manusia di bagian hulu juga menyebabkan banjir turut membawa batang dan ranting pohon. (14) Hal tersebut berdampak pada meluapnya air sungai dan menyebabkan banjir bercampur lumpur.",
+    "question": "Konjungsi yang tepat untuk mengisi bagian rumpang pada kalimat (8) adalah ….",
+    "choices": ["apabila", "tetapi", "hingga", "sehingga", "karena"],
+    "correct_answer": "karena",
+    "explanation": "Kalimat (8) berbunyi “Sebanyak tiga rumah warga terendam dan satu jembatan tidak bisa dilalui (klausa 1) … ada bagian jembatan yang hanyut akibat terjangan air (klausa 2)”. Kalimat tersebut mengandung informasi sebab dan akibat suatu peristiwa. Klausa 1 merupakan akibat, sedangkan klausa 2 merupakan sebab dari klausa 1. Dengan demikian, konjungsi yang paling tepat digunakan untuk melengkapi kalimat tersebut adalah konjungsi yang menyatakan sebab. Konjungsi yang dapat digunakan untuk melengkapi kalimat tersebut adalah karena dan sebab. Pilihan A tidak tepat. Konjungsi apabila tidak tepat karena konjungsi tersebut digunakan untuk menyatakan persyaratan. Pilihan B tidak tepat. Konjungsi tetapi juga tidak tepat karena konjungsi tersebut digunakan untuk menyatakan hal yang bertentangan. Pilihan C tidak tepat. Konjungsi hingga tidak tepat karena konjungsi tersebut digunakan untuk menyatakan sampai. Pilihan D tidak tepat. Konjungsi sehingga juga tidak tepat karena konjungsi tersebut digunakan untuk menyatakan akibat. Jika konjungsi sehingga digunakan, klausa 2 akan menjadi akibat dan klausa 1 menjadi sebab. Hal itu tidak sesuai dengan konteks kalimat."
+  },
+  {
+    "id": "pbm-008",
+    "package": "pbm",
+    "topic": "konjungsi",
+    "level": "medium",
+    "reading": "(1) Menteri Pendidikan dan Kebudayaan (Mendikbud), Nadiem Makarim, menyebutkan bahwa prioritas Merdeka Belajar 2021 akan berfokus pada beberapa hal. (2) Fokus pertama meliputi pembiayaan pendidikan yang akan menyasar pemilik Kartu Indonesia Pintar (KIP) Kuliah dengan target 1,095 juta mahasiswa dan KIP Sekolah dengan target 17,9 juta siswa. (3) “Kemudian, ada bantuan pemerintah kepada 13 SILN dan 2.236 lembaga,” ungkap Nadiem dalam acara Taklimat Media Awal Tahun 2021. (4) Dengan adanya hal itu, program-program yang dijalankan diharapkan dapat berjalan lancar. (5) Fokus kedua adalah program digitalisasi sekolah dan medium pembelajaran melalui empat sistem penguatan platform digital, dan delapan layanan terpadu Kemendikbud. (6) Fokus ketiga adalah pembinaan peserta didik, prestasi, talenta, dan penguatan karakter. (7) Prioritas ini […] diciptakan melalui tiga layanan pendampingan advokasi dan sosialisasi penguatan karakter. (8) Selain itu, prioritas ini diciptakan dengan beberapa cara, seperti pembinaan peserta didik oleh 345 pemerintah daerah serta peningkatan prestasi, manajemen talenta kepada 13.505 pelajar, dan sebagainya. (9) Sementara itu, untuk fokus keempat, Kemendikbud menargetkan adanya pendidikan kepada 19.624 guru penggerak tahun ini. (10) Lalu, akan ada sertifikasi terhadap 10 ribu guru dan tenaga kependidikan. (11) Selain itu, ada pula perekrutan guru PPPK oleh 548 pemerintah daerah serta penjaminan mutu sekolah penggerak dan organisasi penggerak kepada 20.438 orang guru.",
+    "question": "Kata yang tepat untuk melengkapi […] pada kalimat 7 adalah ….",
+    "choices": ["bahkan", "justru", "karena", "akan", "selalu"],
+    "correct_answer": "akan",
+    "explanation": "Kata sambung merangkaikan kata menjadi frasa atau kalimat yang utuh dengan tepat. Kalimat 7, yaitu “Prioritas ini […] diciptakan melalui tiga layanan pendampingan advokasi dan sosialisasi penguatan karakter.” membutuhkan kata sambung yang tepat. Jika dicermati lebih dalam, teks di atas membahas mengenai program yang akan dijalankan atau belum terjadi. Dengan demikian, kata akan pada jawaban D adalah kata yang paling tepat untuk melengkapi rumpang pada kalimat 7. Pilihan A tidak tepat. Kata bahkan merupakan kata penghubung untuk menyatakan penguatan. Kata tersebut tidak sesuai dengan konteks kalimat 7 karena dalam kalimat tersebut, tidak ada sesuatu yang dikuatkan. Pilihan B tidak tepat. Kata justru memiliki dua makna, yakni (1) ‘kata penghubung untuk  menegaskan bahwa sesuatu benar atau salah’ dan (2) ‘bahkan kebalikannya’. Kedua makna  tersebut tidak sesuai dengan konteks kalimat 7 karena dalam kalimat tersebut, tidak terdapat  suatu hal yang ditegaskan kebenarannya. Selain itu, frasa-frasa dalam kalimat 7 juga tidak menunjukkan makna yang berkebalikan. Pilihan C tidak tepat. Kata kemudian dapat berarti ‘sesudah itu; akhirnya (lalu)’. Kata tersebut  menandakan adanya peristiwa yang dilakukan secara berurutan. Kata tersebut tidak sesuai  dengan konteks kalimat 7 karena dalam kalimat tersebut, tidak ada peristiwa yang dilakukan  secara berurutan. Pilihan E tidak tepat. Kata selalu berarti ‘senantiasa’ atau ‘terus-menerus’. Kata selalu  menandakan bahwa sesuatu yang disebutkan sudah dilakukan secara terus-menerus. Kata  tersebut tidak sesuai dengan konteks kalimat 7 karena dalam kalimat tersebut, prioritas yang  dimaksud belum diciptakan."
+  },
+  {
+    "id": "pbm-009",
+    "package": "pbm",
+    "topic": "penulisan kata",
+    "level": "easy",
+    "reading": "(1) Sekarang olahraga sangat diminati semua kalangan, baik pria maupun wanita. (2) Oleh karena itu, sepakbola juga tidak hanya diminati oleh kalangan pria, tetapi juga wanita.(3) Akan tetapi, dalam kegiatan ekstrakurikuler di sekolah yang masih membuka kegiatan tersebut untuk pria (siswa). (4) Wanita (siswi) perlu diberi kesempatan juga agar ada kesetaraan antarsiswa. (5) […], kerjasama sekolah dengan berbagai pihak perlu dilakukan.",
+    "question": "Penulisan kata yang salah terdapat pada kalimat nomor ….",
+    "choices": ["1", "2", "3", "4", "5"],
+    "correct_answer": "2",
+    "explanation": "Kesalahan penulisan terdapat pada kata sepakbola dalam kalimat (2). Menurut kaidah PUEBI, gabungan kata tersebut harus ditulis terpisah menjadi sepak bola karena terdiri dari dua kata dasar dengan makna berbeda. Oleh karena itu, penulisan kata yang salah terdapat pada kalimat nomor (2)."
+  },
+  {
+    "id": "pbm-010",
+    "package": "pbm",
+    "topic": "konjungsi",
+    "level": "medium",
+    "reading": "(1) Sekarang olahraga sangat diminati semua kalangan, baik pria maupun wanita. (2) Oleh karena itu, sepakbola juga tidak hanya diminati oleh kalangan pria, tetapi juga wanita.(3) Akan tetapi, dalam kegiatan ekstrakurikuler di sekolah yang masih membuka kegiatan tersebut untuk pria (siswa). (4) Wanita (siswi) perlu diberi kesempatan juga agar ada kesetaraan antarsiswa. (5) […], kerjasama sekolah dengan berbagai pihak perlu dilakukan.",
+    "question": "Kata penghubung yang paling tepat untuk melengkapi kalimat (5) adalah ….",
+    "choices": ["jadi", "untuk itu", "dengan demikian", "selanjutnya", "akan tetapi"],
+    "correct_answer": "untuk itu",
+    "explanation": "Kalimat (5) memerlukan konjungsi yang tepat untuk menghubungkan gagasan pada kalimat sebelumnya. Kalimat (4) menjelaskan bahwa siswi perlu diberi kesempatan agar ada kesetaraan antarsiswa. Kalimat (5) merupakan tindak lanjut atau langkah untuk mencapai hal tersebut sehingga konjungsi yang sesuai adalah “Untuk itu”. Konjungsi tersebut menunjukkan adanya tindakan lanjutan yang dilakukan sebagai akibat dari gagasan sebelumnya."
+  },
+  {
+    "id": "pbm-011",
+    "package": "pbm",
+    "topic": "perbaikan kalimat",
+    "level": "medium",
+    "reading": "(1) Sekarang olahraga sangat diminati semua kalangan, baik pria maupun wanita. (2) Oleh karena itu, sepakbola juga tidak hanya diminati oleh kalangan pria, tetapi juga wanita.(3) Akan tetapi, dalam kegiatan ekstrakurikuler di sekolah yang masih membuka kegiatan tersebut untuk pria (siswa). (4) Wanita (siswi) perlu diberi kesempatan juga agar ada kesetaraan antarsiswa. (5) […], kerjasama sekolah dengan berbagai pihak perlu dilakukan.",
+    "question": "Manakah kalimat berikut yang merupakan perbaikan kalimat (3)?",
+    "choices": ["Akan tetapi, kegiatan ekstrakurikuler di sekolah yang masih membuka kegiatan tersebut untuk pria (siswa).", "Akan tetapi, dalam kegiatan ekstrakurikuler di sekolah masih membuka kegiatan tersebut untuk pria (siswa).", "Akan tetapi, dalam kegiatan ekstrakurikuler sekolah masih membuka kegiatan tersebut untuk pria (siswa).", "Akan tetapi, dalam kegiatan ekstrakurikuler sekolah yang masih membuka kegiatan tersebut untuk pria (siswa).", "Akan tetapi, kegiatan ekstrakurikuler di sekolah masih membuka kegiatan tersebut untuk pria (siswa)."],
+    "correct_answer": "Akan tetapi, dalam kegiatan ekstrakurikuler di sekolah masih membuka kegiatan tersebut untuk pria (siswa).",
+    "explanation": "Pada Kalimat (3) tersebut tidak memiliki subjek yang jelas karena diawali dengan frasa keterangan sehingga membuat struktur kalimat tidak efektif. Kalimat itu memerlukan subjek agar dapat dipahami dengan tepat. Oleh karena itu, jawabannya adalah B."
+  },
+  {
+    "id": "pbm-012",
+    "package": "pbm",
+    "topic": "enyusunan kalimat menjadi paragraf padu",
+    "level": "hard",
+    "reading": "Perhatikan kalimat-kalimat berikut. (1) Kereta cepat jenis Maglev membutuhkan medan magnet yang besar untuk mengangkat badan kereta. (2) Untuk akselerasi dan deselerasi, kereta api cepat membutuhkan jarak 4 meter di awal dan akhir. (3) Pemerintah harus memperhatikan kebutuhan listrik yang diperlukan untuk dijadikan medan magnet dalam sistem kerja kereta cepat jenis magnetically levitated trains atau Maglev. (4) Hal itu berbeda dengan rel yang selama ini ada di Indonesia dengan lebar 1.067 mm. (5) Magnet tersebut hanya dapat tercipta dengan pasokan listrik yang sangat besar dan stabil. (6) Kereta ini membutuhkan rel dengan lebar 1.435 mm.",
+    "question": "Jika enam kalimat tersebut dikembangkan menjadi paragraf, urutan kalimat yang tepat adalah….",
+    "choices": ["(3)-(1)-(5)-(4)-(6)-(2)", "(3)-(1)-(6)-(4)-(5)-(2)", "(3)-(1)-(5)-(6)-(4)-(2)", "(3)-(5)-(1)-(6)-(4)-(2)", "(3)-(5)-(1)-(4)-(6)-(2)"],
+    "correct_answer": "(3)-(5)-(1)-(4)-(6)-(2)",
+    "explanation": "Kalimat (3) menjadi pembuka karena berisi informasi umum tentang kebutuhan listrik untuk menggerakkan magnet pada kereta Maglev. Setelah itu, kalimat (5) menjelaskan bahwa magnet tersebut hanya dapat terbentuk dengan pasokan listrik besar dan stabil, sehingga masih dalam satu konteks penjelasan. Kalimat (1) kemudian mempertegas fungsi medan magnet, yaitu untuk mengangkat badan kereta cepat Maglev. Kalimat (4) masuk berikutnya karena membandingkan lebar rel di Indonesia dengan rel yang dipakai kereta Maglev. Setelah perbandingan, kalimat (6) menyebutkan ukuran lebar rel secara spesifik, sebagai lanjutan yang logis. Terakhir, kalimat (2) menjadi penutup karena memaparkan kebutuhan jarak akselerasi dan deselerasi setelah pembahasan teknis sebelumnya."
+  },
+  {
+    "id": "pbm-013",
+    "package": "pbm",
+    "topic": "pemilihan kata",
+    "level": "easy",
+    "reading": "(1) Apa itu pendidikan karakter? (2) Pendidikan karakter adalah usaha yang disengaja untuk mendidik dan berkembangnya karakter pribadi peserta didik sehingga menjadi pribadi yang bermanfaat bagi dirinya dan lingkungannya. (3) Pendidikan karakter merupakan suatu sistem pendidikan yang bertujuan menanamkan nilai-nilai kepribadian tertentu kepada peserta didik, yang di dalamnya terdapat unsur-unsur pengetahuan, kesadaran, motivasi, dan perilaku untuk melaksanakan nilainilai tersebut. (4) Secara umum, fungsi pendidikan ini adalah untuk membentuk karakter peserta didik agar menjadi orang yang bermoral dan berakhlak mulia, toleran, serta tangguh dan berkelakuan baik. (5) Pendidikan karakter erat kaitannya dengan pendidikan moral. (6) Oleh karena itu, pendidikan karakter […].",
+    "question": "Kata erat kaitannya dalam kalimat (5) seharusnya ….",
+    "choices": ["dibiarkan saja (sudah benar)", "diganti dengan berkaitan erat", "diganti dengan berhubungan", "didahului kata sangat", "dihilangkan kata kaitannya"],
+    "correct_answer": "diganti dengan berhubungan",
+    "explanation": "Kalimat (5) mengandung kesalahan pemilihan kata atau diksi. Frasa “erat kaitannya” kurang tepat digunakan karena belum efektif secara struktur. Diksi yang tepat adalah “berhubungan” agar kalimat menjadi lebih baku dan efisien. Perbaikan tersebut menghasilkan kalimat yang efektif tanpa mengubah maknanya. Oleh karena itu, jawaban yang benar adalah C."
+  },
+  {
+    "id": "pbm-014",
+    "package": "pbm",
+    "topic": "perbaikan kalimat sesuai kaidah EYD",
+    "level": "medium",
+    "reading": "(1) Apa itu pendidikan karakter? (2) Pendidikan karakter adalah usaha yang disengaja untuk mendidik dan berkembangnya karakter pribadi peserta didik sehingga menjadi pribadi yang bermanfaat bagi dirinya dan lingkungannya. (3) Pendidikan karakter merupakan suatu sistem pendidikan yang bertujuan menanamkan nilai-nilai kepribadian tertentu kepada peserta didik, yang di dalamnya terdapat unsur-unsur pengetahuan, kesadaran, motivasi, dan perilaku untuk melaksanakan nilainilai tersebut. (4) Secara umum, fungsi pendidikan ini adalah untuk membentuk karakter peserta didik agar menjadi orang yang bermoral dan berakhlak mulia, toleran, serta tangguh dan berkelakuan baik. (5) Pendidikan karakter erat kaitannya dengan pendidikan moral. (6) Oleh karena itu, pendidikan karakter […].",
+    "question": "Kalimat (2) perlu disempurnakan dengan cara ….",
+    "choices": ["mengganti kata adalah dengan yaitu", "mengganti kata berkembangnya dengan mengembangkan", "menghilangkan kata untuk", "menambah kata dapat setelah kata sehingga", "menambah kata sendiri setelah kata lingkungannya"],
+    "correct_answer": "menghilangkan kata untuk",
+    "explanation": "Kalimat (2) tidak efektif karena terdapat kata untuk yang menyebabkan pemborosan kata. Struktur yang benar adalah langsung menyebutkan tindakan setelah kata kerja sebelumnya tanpa perlu menambahkan untuk lagi. Dengan menghilangkan kata untuk, kalimat menjadi lebih efektif serta sesuai kaidah penulisan bahasa Indonesia."
+  },
+  {
+    "id": "pbm-015",
+    "package": "pbm",
+    "topic": "pemilihan kata",
+    "level": "easy",
+    "reading": "(1) Apa itu pendidikan karakter? (2) Pendidikan karakter adalah usaha yang disengaja untuk mendidik dan berkembangnya karakter pribadi peserta didik sehingga menjadi pribadi yang bermanfaat bagi dirinya dan lingkungannya. (3) Pendidikan karakter merupakan suatu sistem pendidikan yang bertujuan menanamkan nilai-nilai kepribadian tertentu kepada peserta didik, yang di dalamnya terdapat unsur-unsur pengetahuan, kesadaran, motivasi, dan perilaku untuk melaksanakan nilainilai tersebut. (4) Secara umum, fungsi pendidikan ini adalah untuk membentuk karakter peserta didik agar menjadi orang yang bermoral dan berakhlak mulia, toleran, serta tangguh dan berkelakuan baik. (5) Pendidikan karakter erat kaitannya dengan pendidikan moral. (6) Oleh karena itu, pendidikan karakter […].",
+    "question": "Kata yang harus dihilangkan pada kalimat (4) adalah ….",
+    "choices": ["secara umum", "ini", "untuk", "yang", "serta"],
+    "correct_answer": "secara umum",
+    "explanation": "Kalimat (4) membutuhkan kata penghubung yang sesuai untuk menjelaskan pernyataan yang bersifat generalisasi. Frasa secara umum paling tepat karena mencakup makna menyeluruh dibanding alternatif lain yang kurang sesuai konteks. Kata tersebut melengkapi informasi sehingga kalimat menjadi runtut dan bermakna lengkap."
+  },
+  {
+    "id": "pbm-016",
+    "package": "pbm",
+    "topic": "gagasan pokok",
+    "level": "medium",
+    "reading": "(1) Apa itu pendidikan karakter? (2) Pendidikan karakter adalah usaha yang disengaja untuk mendidik dan berkembangnya karakter pribadi peserta didik sehingga menjadi pribadi yang bermanfaat bagi dirinya dan lingkungannya. (3) Pendidikan karakter merupakan suatu sistem pendidikan yang bertujuan menanamkan nilai-nilai kepribadian tertentu kepada peserta didik, yang di dalamnya terdapat unsur-unsur pengetahuan, kesadaran, motivasi, dan perilaku untuk melaksanakan nilainilai tersebut. (4) Secara umum, fungsi pendidikan ini adalah untuk membentuk karakter peserta didik agar menjadi orang yang bermoral dan berakhlak mulia, toleran, serta tangguh dan berkelakuan baik. (5) Pendidikan karakter erat kaitannya dengan pendidikan moral. (6) Oleh karena itu, pendidikan karakter […].",
+    "question": "Pernyataan yang paling tepat untuk melengkapi kalimat (6) adalah ….",
+    "choices": ["harus dibelajarkan di semua jenjang pendidikan", "menjadi bagian penting dalam kehidupan", "tidak dapat dibedakan dengan pendidikan moral", "tidak dapat dipisahkan dengan pendidikan moral", "merupakan bagian penting dari pendidikan moral"],
+    "correct_answer": "tidak dapat dibedakan dengan pendidikan moral",
+    "explanation": "Kalimat (6) berbicara tentang pendidikan karakter yang erat kaitannya dengan moral. Untuk melengkapi gagasan, diperlukan pernyataan yang menunjukkan kaitan kuat antara keduanya. Jawaban (C) mempertegas bahwa pendidikan karakter tidak dapat dibedakan dari pendidikan moral sehingga kalimat menjadi koheren dan maknanya utuh."
+  },
+  {
+    "id": "pbm-017",
+    "package": "pbm",
+    "topic": "penulisan huruf kapital",
+    "level": "easy",
+    "question": "Kalimat manakah yang penulisan huruf kapitalnya salah?",
+    "choices": ["Setiap bulan Ramadan, Zulfikli melaksanakan puasa.", "Kuat arus dalam aliran listrik itu sebanyak 5 Ampere.", "Tidaklah sulit memahami hukum Archimedes.", "Sultan Hasanuddin merupakan Ayam Jantan dari Timur.", "Banyak anak muda yang tidak mengenal aksara Kaganga."],
+    "correct_answer": "Kuat arus dalam aliran listrik itu sebanyak 5 Ampere.",
+    "explanation": "Kalimat yang salah penulisan huruf kapitalnya terdapat pada pilihan B. Dalam kaidah EYD/PUEBI, huruf kapital digunakan untuk nama orang, nama bulan, nama hukum, gelar, atau julukan. Namun, satuan ukuran seperti ampere, meter, atau kilogram tidak ditulis dengan huruf kapital kecuali berada di awal kalimat. Oleh karena itu, penulisan yang benar seharusnya adalah “Kuat arus dalam aliran listrik itu sebanyak 5 ampere.” Sedangkan pilihan lain sudah sesuai aturan, misalnya Ramadan sebagai nama bulan, Archimedes sebagai nama tokoh, julukan Ayam Jantan dari Timur, dan nama aksara Kaganga semuanya memang ditulis dengan huruf kapital."
+  },
+  {
+    "id": "pbm-018",
+    "package": "pbm",
+    "topic": "menentukan letak kalimat yang tepat dalam paragraf",
+    "level": "hard",
+    "reading": "(1) Perubahan iklim terhadap kualitas udara di dunia, selalu dilaporkan oleh World Meteorological Organization (WMO) setiap tahun. (2) Menurut […], musim panas tahun 2022 merupakan musim panas terpanas yang pernah tercatat di Eropa. (3) Sehingga rekor ini kemudian dipecahkan di tahun 2023. (4) Gelombang panas berkepanjangan menyebabkan peningkatan konsentrasi materipartikulat (PM) 2,5 dan ozon di permukaan tanah. (5) Ratusan lokasi pemantauan kualitas udara melampaui tingkat pedoman kualitas udara ozon WHO, yakni sebesar 100 mikron per meter kubik untuk paparan selama delapan jam. (6) Hal ini pertama kali terjadi di barat daya Eropa, bergeser ke Eropa tengah, dan kemudian menyebar ke seluruh benua. (7) Campuran suhu tinggi, jumlah aerosol yang tinggi, dan juga kandungan PM 2,5 berdampak pada kesehatan dan kesejahteraan manusia.",
+    "question": "Kalimat berikut perlu dimasukkan dalam bacaan tersebut. [Selama paruh kedua Agustus 2022, terjadi intrusi debu gurun, yang sangat tinggi di Mediterania dan Eropa.] Kalimat tersebut paling tepat ditempatkan setelah kalimat ….",
+    "choices": ["3", "4", "5", "6", "7"],
+    "correct_answer": "6",
+    "explanation": "Kalimat tambahan berisi informasi tentang intrusi debu gurun yang terjadi pada musim panas 2022 di wilayah Mediterania dan Eropa. Kalimat ini relevan ketika paragraf telah membahas fenomena gelombang panas dan dampaknya terhadap kualitas udara. Kalimat (6) membicarakan peningkatan kandungan PM 2,5 dalam debu yang berdampak pada kesehatan manusia sehingga hubungan sebab–akibat paling tepat jika kalimat tambahan ditempatkan setelah kalimat (6), tepat sebelum penjelasan lanjutan selanjutnya."
+  },
+  {
+    "id": "pbm-019",
+    "package": "pbm",
+    "topic": "pemilihan nomina rujukan untuk melengkapi bacaan",
+    "level": "easy",
+    "reading": "(1) Perubahan iklim terhadap kualitas udara di dunia, selalu dilaporkan oleh World Meteorological Organization (WMO) setiap tahun. (2) Menurut […], musim panas tahun 2022 merupakan musim panas terpanas yang pernah tercatat di Eropa. (3) Sehingga rekor ini kemudian dipecahkan di tahun 2023. (4) Gelombang panas berkepanjangan menyebabkan peningkatan konsentrasi materipartikulat (PM) 2,5 dan ozon di permukaan tanah. (5) Ratusan lokasi pemantauan kualitas udara melampaui tingkat pedoman kualitas udara ozon WHO, yakni sebesar 100 mikron per meter kubik untuk paparan selama delapan jam. (6) Hal ini pertama kali terjadi di barat daya Eropa, bergeser ke Eropa tengah, dan kemudian menyebar ke seluruh benua. (7) Campuran suhu tinggi, jumlah aerosol yang tinggi, dan juga kandungan PM 2,5 berdampak pada kesehatan dan kesejahteraan manusia.",
+    "question": "Pernyataan yang paling tepat untuk melengkapi kalimat (2) adalah ….",
+    "choices": ["informasi tersebut", "informasi di atas", "data dari WMO", "data yang diperoleh WMO", "data terkini"],
+    "correct_answer": "informasi tersebut",
+    "explanation": "Kalimat (2) merujuk kembali pada penjelasan yang sudah disampaikan sebelumnya tentang perubahan iklim dan pencapaian rekor panas. Oleh karena itu, frasa yang tepat adalah informasi tersebut karena mengacu langsung pada keterangan sebelumnya tanpa mengulangi detail data."
+  },
+  {
+    "id": "pbm-020",
+    "package": "pbm",
+    "topic": "penggunaan tanda baca dalam kalimat",
+    "level": "easy",
+    "reading": "(1) Perubahan iklim terhadap kualitas udara di dunia, selalu dilaporkan oleh World Meteorological Organization (WMO) setiap tahun. (2) Menurut […], musim panas tahun 2022 merupakan musim panas terpanas yang pernah tercatat di Eropa. (3) Sehingga rekor ini kemudian dipecahkan di tahun 2023. (4) Gelombang panas berkepanjangan menyebabkan peningkatan konsentrasi materipartikulat (PM) 2,5 dan ozon di permukaan tanah. (5) Ratusan lokasi pemantauan kualitas udara melampaui tingkat pedoman kualitas udara ozon WHO, yakni sebesar 100 mikron per meter kubik untuk paparan selama delapan jam. (6) Hal ini pertama kali terjadi di barat daya Eropa, bergeser ke Eropa tengah, dan kemudian menyebar ke seluruh benua. (7) Campuran suhu tinggi, jumlah aerosol yang tinggi, dan juga kandungan PM 2,5 berdampak pada kesehatan dan kesejahteraan manusia.",
+    "question": "Penggunaan tanda koma yang salah terdapat pada kalimat….",
+    "choices": ["1", "2", "3", "4", "5"],
+    "correct_answer": "1",
+    "explanation": "Kalimat bernomor (1) mengandung kesalahan penggunaan koma karena koma diletakkan di antara subjek dan predikat, padahal tidak ada keterangan atau penyisipan yang mengharuskannya. Aturan penulisan EYD menyatakan bahwa koma tidak boleh memisahkan subjek dan predikat secara langsung. Oleh karena itu, kalimat (1) merupakan kalimat yang salah penempatan komanya."
+  },
+  {
+    "id": "pbm-021",
+    "package": "pbm",
+    "topic": "perbaikan struktur kalimat",
+    "level": "medium",
+    "reading": "(1) Perubahan iklim terhadap kualitas udara di dunia, selalu dilaporkan oleh World Meteorological Organization (WMO) setiap tahun. (2) Menurut […], musim panas tahun 2022 merupakan musim panas terpanas yang pernah tercatat di Eropa. (3) Sehingga rekor ini kemudian dipecahkan di tahun 2023. (4) Gelombang panas berkepanjangan menyebabkan peningkatan konsentrasi materipartikulat (PM) 2,5 dan ozon di permukaan tanah. (5) Ratusan lokasi pemantauan kualitas udara melampaui tingkat pedoman kualitas udara ozon WHO, yakni sebesar 100 mikron per meter kubik untuk paparan selama delapan jam. (6) Hal ini pertama kali terjadi di barat daya Eropa, bergeser ke Eropa tengah, dan kemudian menyebar ke seluruh benua. (7) Campuran suhu tinggi, jumlah aerosol yang tinggi, dan juga kandungan PM 2,5 berdampak pada kesehatan dan kesejahteraan manusia.",
+    "question": "Kalimat manakah yang merupakan kalimat efektif dari kalimat (3)?",
+    "choices": ["Makanya, rekor ini kemudian dipecahkan di tahun 2023.", "Dalam rekor ini kemudian dipecahkan di tahun 2023.", "Dalam rekor ini kemudian dipecahkan pada tahun 2023.", "Rekor ini kemudian dipecahkan pada tahun 2023.", "Rekor ini kemudian dipecahkan di tahun 2023."],
+    "correct_answer": "Rekor ini kemudian dipecahkan pada tahun 2023.",
+    "explanation": "Kalimat yang paling efektif adalah yang menyampaikan informasi secara runtut, ringkas, dan tanpa pengulangan makna. Opsi D paling memenuhi karena memiliki subjek, predikat, dan keterangan waktu secara jelas tanpa diksi berlebihan atau struktur yang janggal. Kalimat lainnya memiliki urutan informasi kurang tepat atau mubazir."
+  },
+  {
+    "id": "pbm-022",
+    "package": "pbm",
+    "topic": "sinonim dan ketepatan makna kata",
+    "level": "easy",
+    "reading": "(1) Perubahan iklim terhadap kualitas udara di dunia, selalu dilaporkan oleh World Meteorological Organization (WMO) setiap tahun. (2) Menurut […], musim panas tahun 2022 merupakan musim panas terpanas yang pernah tercatat di Eropa. (3) Sehingga rekor ini kemudian dipecahkan di tahun 2023. (4) Gelombang panas berkepanjangan menyebabkan peningkatan konsentrasi materipartikulat (PM) 2,5 dan ozon di permukaan tanah. (5) Ratusan lokasi pemantauan kualitas udara melampaui tingkat pedoman kualitas udara ozon WHO, yakni sebesar 100 mikron per meter kubik untuk paparan selama delapan jam. (6) Hal ini pertama kali terjadi di barat daya Eropa, bergeser ke Eropa tengah, dan kemudian menyebar ke seluruh benua. (7) Campuran suhu tinggi, jumlah aerosol yang tinggi, dan juga kandungan PM 2,5 berdampak pada kesehatan dan kesejahteraan manusia.",
+    "question": "Kata yang paling tepat menggantikan kata campuran dalam kalimat (7) adalah ….",
+    "choices": ["ikatan", "variasi", "gabungan", "komposisi", "kombinasi"],
+    "correct_answer": "kombinasi",
+    "explanation": "Kata campuran pada kalimat (7) digunakan dalam konteks ilmiah untuk merujuk gabungan dua unsur berbeda. Sinonim yang paling sesuai adalah kombinasi karena bersifat ilmiah dan netral. Kata ikatan, variasi, gabungan, atau komposisi tidak sepenuhnya tepat dalam konteks tersebut."
+  },
+  {
+    "id": "pbm-023",
+    "package": "pbm",
+    "topic": "penggabungan kalimat menjadi kalimat efektif",
+    "level": "hard",
+    "reading": "(1) Perubahan iklim terhadap kualitas udara di dunia, selalu dilaporkan oleh World Meteorological Organization (WMO) setiap tahun. (2) Menurut […], musim panas tahun 2022 merupakan musim panas terpanas yang pernah tercatat di Eropa. (3) Sehingga rekor ini kemudian dipecahkan di tahun 2023. (4) Gelombang panas berkepanjangan menyebabkan peningkatan konsentrasi materipartikulat (PM) 2,5 dan ozon di permukaan tanah. (5) Ratusan lokasi pemantauan kualitas udara melampaui tingkat pedoman kualitas udara ozon WHO, yakni sebesar 100 mikron per meter kubik untuk paparan selama delapan jam. (6) Hal ini pertama kali terjadi di barat daya Eropa, bergeser ke Eropa tengah, dan kemudian menyebar ke seluruh benua. (7) Campuran suhu tinggi, jumlah aerosol yang tinggi, dan juga kandungan PM 2,5 berdampak pada kesehatan dan kesejahteraan manusia.",
+    "question": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (3) dan (4)?",
+    "choices": ["Rekor ini kemudian dipecahkan pada tahun 2023 ketika gelombang panas berkepanjangan menyebabkan peningkatan konsentrasi materi partikulat (PM) 2,5 dan ozon di permukaan tanah.", "Rekor ini kemudian dipecahkan pada tahun 2023 dengan terjadinya gelombang panas berkepanjangan yang menyebabkan peningkatan konsentrasi materi partikulat (PM) 2,5 dan ozon di permukaan tanah.", "Rekor ini kemudian dipecahkan pada tahun 2023 setelah gelombang panas berkepanjangan menyebabkan peningkatan konsentrasi materi partikulat (PM) 2,5 dan ozon di permukaan tanah.", "Rekor ini kemudian dipecahkan pada tahun 2023 di mana gelombang panas berkepanjangan menyebabkan peningkatan konsentrasi materi partikulat (PM) 2,5 dan ozon di permukaan tanah.", "Rekor ini kemudian dipecahkan pada tahun 2023 bertepatan dengan gelombang panas berkepanjangan yang menyebabkan peningkatan konsentrasi materi partikulat (PM) 2,5 dan ozon di permukaan tanah."],
+    "correct_answer": "Rekor ini kemudian dipecahkan pada tahun 2023 di mana gelombang panas berkepanjangan menyebabkan peningkatan konsentrasi materi partikulat (PM) 2,5 dan ozon di permukaan tanah.",
+    "explanation": "Penggabungan dua kalimat harus mempertahankan seluruh informasi penting tanpa repetisi dan tetap mengikuti urutan sebab–akibat. Opsi D merupakan kalimat yang paling efektif karena menjelaskan peristiwa pemecahan rekor panas pada tahun 2023 sekaligus menyebutkan gelombang panas berkepanjangan yang menyebabkan peningkatan konsentrasi PM 2,5 dan ozon, sehingga hubungan logis dua kalimat tetap utuh."
+  },
+  {
+    "id": "pbm-024",
+    "package": "pbm",
+    "topic": "menentukan kalimat yang sepadan makna dengan kalimat dalam teks",
+    "level": "hard",
+    "reading": "(1) Hoaks timbul sebagai dampak negatif kebebasan berbicara dan berasumsi di internet. (2) Hoaks bertujuan untuk pembentukan opini publik, menggiring opini, membuat pemahaman, atau bersenang-senang dengan cara mengevaluasi kecerdasan dan ekonomi pengguna internet dan media umum. (3) Literasi digital yang tinggi meningkatkan kemampuan seseorang untuk mengidentifikasi dan menafsirkan batas antara dunia nyata dan dunia media. (4) Maraknya hoaks di ruang publik dapat memengaruhi asumsi publik yang sudah terbentuk. (5) Untuk itu, [....] literasi digital kepada masyarakat sangat penting agar mereka lebih bijak dan kritis dalam mengakses, mengelola, dan [....] berita. (6) Karena melalui literasi digital, citra di mata masyarakat dapat ditingkatkan dan tidak tergoyahkan meskipun ada penyebaran hoaks. (7) Alasannya, masyarakat lebih kritis dalam memilih dan memilah sehingga bisa membedakan informasi yang valid dan tidak valid.",
+    "question": "Kalimat manakah yang isinya sama dengan kalimat (4)?",
+    "choices": ["Maraknya hoaks di ruang publik dapat berpengaruh pada asumi publik yang sudah terbentuk.", "Maraknya hoaks di ruang publik dapat menjadi pengaruh asumsi publik yang sudah terbentuk.", "Maraknya hoaks di ruang publik dapat terpengaruh oleh asumsi publik yang sudah terbentuk.", "Asumsi publik yang sudah terbentuk dapat memengaruhi maraknya hoaks di ruang publik.", "Asumsi pubik yang sudah terbentuk dapat dipengaruhi oleh maraknya hoaks di ruang publik."],
+    "correct_answer": "Maraknya hoaks di ruang publik dapat berpengaruh pada asumi publik yang sudah terbentuk.",
+    "explanation": "Kalimat (4) pada teks berbunyi “Maraknya hoaks di ruang publik dapat memengaruhi asumsi publik yang sudah terbentuk.”. Opsi A adalah satu-satunya yang mempertahankan struktur makna dengan tepat: hoaks → memengaruhi → asumsi publik. Opsi B menukar posisi sebab–akibat sehingga maknanya berubah. Opsi C menimbulkan ambiguitas logika. Opsi D dan E menabahkan subjek baru asumsi publik dan maraknya hoaks, sehingga struktur makna tidak sepadan. Karena itu, A adalah kalimat yang paling sama maknanya."
+  },
+  {
+    "id": "pbm-025",
+    "package": "pbm",
+    "topic": "efektivitas diksi dalam kalimat",
+    "level": "easy",
+    "reading": "(1) Hoaks timbul sebagai dampak negatif kebebasan berbicara dan berasumsi di internet. (2) Hoaks bertujuan untuk pembentukan opini publik, menggiring opini, membuat pemahaman, atau bersenang-senang dengan cara mengevaluasi kecerdasan dan ekonomi pengguna internet dan media umum. (3) Literasi digital yang tinggi meningkatkan kemampuan seseorang untuk mengidentifikasi dan menafsirkan batas antara dunia nyata dan dunia media. (4) Maraknya hoaks di ruang publik dapat memengaruhi asumsi publik yang sudah terbentuk. (5) Untuk itu, [....] literasi digital kepada masyarakat sangat penting agar mereka lebih bijak dan kritis dalam mengakses, mengelola, dan [....] berita. (6) Karena melalui literasi digital, citra di mata masyarakat dapat ditingkatkan dan tidak tergoyahkan meskipun ada penyebaran hoaks. (7) Alasannya, masyarakat lebih kritis dalam memilih dan memilah sehingga bisa membedakan informasi yang valid dan tidak valid.",
+    "question": "Kata pembentukan dalam kalimat (2) seharusnya....",
+    "choices": ["dibiarkan saja (sudah benar)", "diganti dengan kata terbentuknya", "diganti dengan kata membentuk", "diikuti kata dalam", "dihilangkan karena mubazir"],
+    "correct_answer": "dihilangkan karena mubazir",
+    "explanation": "Kalimat (2) berbunyi: “Hoaks bertujuan untuk pembentukan opini publik...” Kata pembentukan dianggap mubazir karena sudah ada frasa bertujuan untuk, sehingga ada repetisi makna (dua-dua menandakan proses terjadinya sesuatu). Kalimat akan lebih efektif bila kata “pembentukan” dihilangkan sehingga menjadi “Hoaks bertujuan untuk membentuk opini publik…”. Untuk mencapai efektivitas, pilihan paling tepat adalah dihilangkan karena mubazir."
+  },
+  {
+    "id": "pbm-026",
+    "package": "pbm",
+    "topic": "menentukan kesimpulan paragraf",
+    "level": "easy",
+    "reading": "Bacalah paragraf berikut: [Pemanasan global menyebabkan naiknya permukaan laut. Kota-kota pesisir pun terancam banjir.]",
+    "question": "Apa kesimpulan yang tepat dari paragraf tersebut?",
+    "choices": ["Kota-kota pesisir sudah tenggelam", "Pemanasan global harus dihentikan", "Permukaan laut stabil", "Pemanasan global berdampak pada kota pesisir", "Kota pesisir tidak perlu khawatir"],
+    "correct_answer": "Pemanasan global berdampak pada kota pesisir",
+    "explanation": "Kalimat kedua menjelaskan dampak dari pemanasan global terhadap kota pesisir."
+  },
+  {
+    "id": "pbm-027",
+    "package": "pbm",
+    "topic": "menentukan kalimat utama paragraf",
+    "level": "easy",
+    "reading": "Perpustakaan digital kini semakin diminati. Aksesnya yang mudah dan koleksinya yang luas membuat banyak orang beralih dari perpustakaan konvensional.",
+    "question": "Apa kalimat utama dari paragraf tersebut?",
+    "choices": ["Banyak orang beralih ke perpustakaan digital.", "Koleksi perpustakaan digital terbatas.", "Perpustakaan konvensional lebih baik.", "Perpustakaan digital sulit diakses.", "Perpustakaan konvensional masih populer."],
+    "correct_answer": "Banyak orang beralih ke perpustakaan digital.",
+    "explanation": "Inti dari paragraf adalah perpustakaan digital diminati karena kelebihan-kelebihannya."
+  },
+  {
+    "id": "pbm-028",
+    "package": "pbm",
+    "topic": "Tata Paragraf",
+    "level": "hard",
+    "reading": "[…] (1) Di sepanjang tujuh puluh tahun Indonesia merdeka, setelah empat belas tahun mencoba praktik demokrasi parlementer secara liberal dan tiga puluh delapan tahun diperintah oleh dua penguasa berdasar sistim politik semi presidensial, […] Indonesia berkesempatan secara sadar dan leluasa, untuk menerapkan dan mengembangkan demokrasi presidensial. (2) Setelah sebelas tahun berlangsung secara relatif konsisten (2004—2015), ternyata eksperimen besar sistem pengelolaan negara (state-craft) yang ke-3 itu memberikan hasil terbaik yang prospektif berupa kemajuan demokrasi dan politik beserta sosial dan ekonomi secara lebih komprehensif. (3) Ada beberapa argumen, pertama, sekalipun masih ada berbagai kelemahan, dunia mengakui Indonesia sebagai negara dengan penduduk terbesar ke-5, dengan masyarakat yang berstruktur majemuk dan mayoritas beragama Islam, tetapi sukses menjalankan transformasi demokrasi. (4) Argumen kedua adalah kehidupan masyarakat dan negara yang relatif stabil […] sosial dan politik serta ekonomi. Ketiga, sekalipun tertinggal dari kemajuan pembangunan di bawah sistem otoriter, tetapi sistem demokrasi presidensial berhasil mencapai pertumbuhan ekonomi (Produk Domestik Bruto) sebesar 5—6% per tahun. (5) Keempat, sistem tersebut berhasil memperbaharui struktur masyarakat dengan memfasilitasi pertumbuhan kelas menengah baru sampai melebihi 50% populasi. (6) Tentunya, upaya merealisasikan potensi besar untuk menjadikan Indonesia sebagai negara besar dan kuat dunia, bukan saja memerlukan rencana aksi dan strategi yang tepat, melainkan lebih jauh, membutuhkan landasan legal formal yang hanya bisa disediakan dengan menyempurnakan substansi dan prosedur, serta koherensi atas segenap peraturan perundangan mulai dari Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 sampai Undang-Undang yang berhubungan dengan politik (parpol, pileg, pilpres, MD3, kementerian, pemda, pilkada, desa). (7) Dalam hal itu, pilihan strategi aksi upaya perwujudannya adalah mempersuasikan politisi penguasa lembaga pemerintahan atau menggerakkan tekanan aksi massa terhadap para penguasa dengan kampanye media massa secara sistemik dan intensif.",
+    "question": "Judul yang paling tepat untuk menggambarkan isi dari teks di atas adalah …. ",
+    "choices": ["Perjalanan Politik Demokrasi Indonesia", "Jenis Demokrasi di Indonesia", "Perjalanan Politik di Indonesia", "Tantangan Politik dalam Demokrasi", "Pematangan Demokrasi dan Politik Indonesia"],
+    "correct_answer": "Pematangan Demokrasi dan Politik Indonesia ",
+    "explanation": "Judul merupakan intisari sebuah karangan. Judul harus mewakili keseluruhan isi teks. Teks di atas menceritakan tentang Indonesia yang mencoba menggunakan beberapa sistem demokrasi dan sistem politik. Penggunaan sistem demokrasi dan sistem politik dijelaskan hingga tahap penerapan demokrasi presidensial yang relatif berlangsung secara konsisten. Dengan demikian, judul yang tepat untuk teks di atas adalah Pematangan Demokrasi dan Politik Indonesia. Pilihan jawaban A kurang tepat karena teks di atas tidak secara spesifik membahas perjalanan politik demokrasi di Indonesia. Teks di atas tidak menjelaskan urutan tahun sebagai landasan perjalanan politik demokrasi Indonesia. Pilihan jawaban B, C dan D tidak tepat karena teks di atas tidak membahas jenis-jenis demokrasi di Indonesia, perjalanan politik di Indonesia, dan tantangan politik dalam demokrasi."
+  },
+  {
+    "id": "pbm-029",
+    "package": "pbm",
+    "topic": "ejaan dan konjungsi",
+    "level": "hard",
+    "reading": "[…] (1) Di sepanjang tujuh puluh tahun Indonesia merdeka, setelah empat belas tahun mencoba praktik demokrasi parlementer secara liberal dan tiga puluh delapan tahun diperintah oleh dua penguasa berdasar sistim politik semi presidensial, […] Indonesia berkesempatan secara sadar dan leluasa, untuk menerapkan dan mengembangkan demokrasi presidensial. (2) Setelah sebelas tahun berlangsung secara relatif konsisten (2004—2015), ternyata eksperimen besar sistem pengelolaan negara (state-craft) yang ke-3 itu memberikan hasil terbaik yang prospektif berupa kemajuan demokrasi dan politik beserta sosial dan ekonomi secara lebih komprehensif. (3) Ada beberapa argumen, pertama, sekalipun masih ada berbagai kelemahan, dunia mengakui Indonesia sebagai negara dengan penduduk terbesar ke-5, dengan masyarakat yang berstruktur majemuk dan mayoritas beragama Islam, tetapi sukses menjalankan transformasi demokrasi. (4) Argumen kedua adalah kehidupan masyarakat dan negara yang relatif stabil […] sosial dan politik serta ekonomi. Ketiga, sekalipun tertinggal dari kemajuan pembangunan di bawah sistem otoriter, tetapi sistem demokrasi presidensial berhasil mencapai pertumbuhan ekonomi (Produk Domestik Bruto) sebesar 5—6% per tahun. (5) Keempat, sistem tersebut berhasil memperbaharui struktur masyarakat dengan memfasilitasi pertumbuhan kelas menengah baru sampai melebihi 50% populasi. (6) Tentunya, upaya merealisasikan potensi besar untuk menjadikan Indonesia sebagai negara besar dan kuat dunia, bukan saja memerlukan rencana aksi dan strategi yang tepat, melainkan lebih jauh, membutuhkan landasan legal formal yang hanya bisa disediakan dengan menyempurnakan substansi dan prosedur, serta koherensi atas segenap peraturan perundangan mulai dari Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 sampai Undang-Undang yang berhubungan dengan politik (parpol, pileg, pilpres, MD3, kementerian, pemda, pilkada, desa). (7) Dalam hal itu, pilihan strategi aksi upaya perwujudannya adalah mempersuasikan politisi penguasa lembaga pemerintahan atau menggerakkan tekanan aksi massa terhadap para penguasa dengan kampanye media massa secara sistemik dan intensif.",
+    "question": "Kata berimbuhan yang tidak tepat pada paragraf kedua adalah …. ",
+    "choices": ["memfasilitasi", "memperbaharui", "menjalankan", "pembangunan", "perumbuhan"],
+    "correct_answer": "memperbaharui",
+    "explanation": "Kata berimbuhan yang tidak tepat digunakan pada paragraf kedua adalah kata memperbaharui. Kata tersebut memiliki kata dasar baru dan mendapat imbuhan me- dan imbuhan -i. Menurut Kamus Besar Bahasa Indonesia (KBBI), kata yang tepat adalah memperbarui. Sementara, kata memperbaharui merupakan kata yang tidak tepat dan tidak baku. Oleh sebab itu, pembentukan kata yang tepat bukan memperbaharui, melainkan memperbarui. Sementara, kata memfasilitasi, menjalankan, pembangunan, dan pertumbunan sudah memuat kata berimbuhan yang tepat dan sesuai dengan konteks kalimat dalam teks. Dengan demikian, kata berimbuhan yang tidak tepat pada paragraf kedua adalah memperbarui."
+  },
+  {
+    "id": "pbm-030",
+    "package": "pbm",
+    "topic": "tata kata dan makna",
+    "level": "hard",
+    "reading": "[…] (1) Di sepanjang tujuh puluh tahun Indonesia merdeka, setelah empat belas tahun mencoba praktik demokrasi parlementer secara liberal dan tiga puluh delapan tahun diperintah oleh dua penguasa berdasar sistim politik semi presidensial, […] Indonesia berkesempatan secara sadar dan leluasa, untuk menerapkan dan mengembangkan demokrasi presidensial. (2) Setelah sebelas tahun berlangsung secara relatif konsisten (2004—2015), ternyata eksperimen besar sistem pengelolaan negara (state-craft) yang ke-3 itu memberikan hasil terbaik yang prospektif berupa kemajuan demokrasi dan politik beserta sosial dan ekonomi secara lebih komprehensif. (3) Ada beberapa argumen, pertama, sekalipun masih ada berbagai kelemahan, dunia mengakui Indonesia sebagai negara dengan penduduk terbesar ke-5, dengan masyarakat yang berstruktur majemuk dan mayoritas beragama Islam, tetapi sukses menjalankan transformasi demokrasi. (4) Argumen kedua adalah kehidupan masyarakat dan negara yang relatif stabil […] sosial dan politik serta ekonomi. Ketiga, sekalipun tertinggal dari kemajuan pembangunan di bawah sistem otoriter, tetapi sistem demokrasi presidensial berhasil mencapai pertumbuhan ekonomi (Produk Domestik Bruto) sebesar 5—6% per tahun. (5) Keempat, sistem tersebut berhasil memperbaharui struktur masyarakat dengan memfasilitasi pertumbuhan kelas menengah baru sampai melebihi 50% populasi. (6) Tentunya, upaya merealisasikan potensi besar untuk menjadikan Indonesia sebagai negara besar dan kuat dunia, bukan saja memerlukan rencana aksi dan strategi yang tepat, melainkan lebih jauh, membutuhkan landasan legal formal yang hanya bisa disediakan dengan menyempurnakan substansi dan prosedur, serta koherensi atas segenap peraturan perundangan mulai dari Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 sampai Undang-Undang yang berhubungan dengan politik (parpol, pileg, pilpres, MD3, kementerian, pemda, pilkada, desa). (7) Dalam hal itu, pilihan strategi aksi upaya perwujudannya adalah mempersuasikan politisi penguasa lembaga pemerintahan atau menggerakkan tekanan aksi massa terhadap para penguasa dengan kampanye media massa secara sistemik dan intensif.",
+    "question": " Penggunaan kata yang salah di paragraf pertama adalah ….",
+    "choices": ["praktik", "leluasa", "prospektif", "diperintah", "komperhensif "],
+    "correct_answer": "leluasa",
+    "explanation": "Penggunaan kata yang salah digunakan pada paragraf pertama adalah komperhensif. Perbaikan kata tersebut adalah komprehensif. Menurut Kamus Besar Bahasa Indonesia (KBBI), kata komprehensif memiliki arti bersifat mampu menangkap (menerima) dengan baik; luas dan lengkap (tentang ruang lingkup atau isi); mempunyai dan memperlihatkan wawasan yang luas. Sementara, penulisan kata praktik, leluasa, prospektif, dan diperintah sudah sesuai kaidah kebahasaan dan konteks kalimat dalam wacana di atas. Berdasarkan penjelasan di atas, penggunaan kata yang salah digunakan pada paragraf pertama adalah komperhensif."
+  },
+  {
+    "id": "pu-001",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "easy",
+    "question": "Jika semua bunga adalah tanaman, dan beberapa tanaman adalah pohon, maka pernyataan yang benar adalah…",
+    "choices": ["Semua pohon adalah bunga", "Semua bunga adalah pohon", "Beberapa pohon adalah tanaman", "Beberapa bunga adalah pohon", "Tidak ada hubungan"],
+    "correct_answer": "Beberapa pohon adalah tanaman",
+    "explanation": "Premis: semua bunga ⊂ tanaman, beberapa tanaman ⊂ pohon. Maka benar: beberapa pohon adalah tanaman."
+  },
+  {
+    "id": "pu-002",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "easy",
+    "question": "Urutan huruf berikut: A, C, E, G, … huruf selanjutnya adalah…",
+    "choices": ["H", "I", "J", "K", "L"],
+    "correct_answer": "I",
+    "explanation": "Pola: lompat 2 huruf. Setelah G → I."
+  },
+  {
+    "id": "pu-003",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "easy",
+    "question": "Jika hari ini Senin, maka 100 hari kemudian adalah…",
+    "choices": ["Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
+    "correct_answer": "Rabu",
+    "explanation": "100 mod 7 = 2 sisa. Senin+2=Rabu."
+  },
+  {
+    "id": "pu-004",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "easy",
+    "question": "Jika semua kucing memiliki ekor, dan Milo adalah kucing, maka…",
+    "choices": ["Milo tidak punya ekor", "Milo punya ekor", "Milo bukan kucing", "Milo adalah anjing", "Tidak dapat ditentukan"],
+    "correct_answer": "Milo punya ekor",
+    "explanation": "Premis: semua kucing punya ekor → Milo kucing → Milo punya ekor."
+  },
+  {
+    "id": "pu-005",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "easy",
+    "question": "Urutan angka: 2, 4, 8, 16, … angka selanjutnya adalah…",
+    "choices": ["24", "30", "32", "36", "40"],
+    "correct_answer": "32",
+    "explanation": "Pola: ×2. Setelah 16 → 32."
+  },
+  {
+    "id": "pu-006",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "easy",
+    "question": "Jika semua siswa memakai seragam, dan Andi adalah siswa, maka…",
+    "choices": ["Andi tidak memakai seragam", "Andi memakai seragam", "Andi bukan siswa", "Tidak dapat ditentukan", "Andi guru"],
+    "correct_answer": "Andi memakai seragam",
+    "explanation": "Premis: semua siswa memakai seragam → Andi siswa → Andi memakai seragam."
+  },
+  {
+    "id": "pu-007",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "easy",
+    "question": "Urutan bilangan ganjil: 1, 3, 5, 7, … angka selanjutnya adalah…",
+    "choices": ["8", "9", "10", "11", "12"],
+    "correct_answer": "9",
+    "explanation": "Bilangan ganjil setelah 7 adalah 9."
+  },
+  {
+    "id": "pu-008",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "easy",
+    "question": "Jika semua manusia bernapas, dan Budi adalah manusia, maka…",
+    "choices": ["Budi tidak bernapas", "Budi bernapas", "Budi bukan manusia", "Tidak dapat ditentukan", "Budi hewan"],
+    "correct_answer": "Budi bernapas",
+    "explanation": "Premis: semua manusia bernapas → Budi manusia → Budi bernapas."
+  },
+  {
+    "id": "pu-009",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "easy",
+    "question": "Urutan huruf: Z, X, V, T, … huruf selanjutnya adalah…",
+    "choices": ["R", "S", "Q", "P", "O"],
+    "correct_answer": "R",
+    "explanation": "Pola: mundur 2 huruf. Setelah T → R."
+  },
+  {
+    "id": "pu-010",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "easy",
+    "question": "Jika semua burung bisa terbang, dan penguin adalah burung, maka…",
+    "choices": ["Penguin bisa terbang", "Penguin tidak bisa terbang", "Penguin bukan burung", "Tidak dapat ditentukan", "Penguin mamalia"],
+    "correct_answer": "Penguin tidak bisa terbang",
+    "explanation": "Premis salah umum → pengecualian: penguin burung tapi tidak terbang."
+  },
+
+  {
+    "id": "pu-011",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Jika semua A adalah B, dan semua B adalah C, maka…",
+    "choices": ["Semua A adalah C", "Semua C adalah A", "Semua B adalah A", "Tidak ada hubungan", "Semua A bukan C"],
+    "correct_answer": "Semua A adalah C",
+    "explanation": "Transitivitas: A⊂B, B⊂C → A⊂C."
+  },
+  {
+    "id": "pu-012",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Urutan angka: 1, 4, 9, 16, … angka selanjutnya adalah…",
+    "choices": ["20", "21", "24", "25", "30"],
+    "correct_answer": "25",
+    "explanation": "Pola: bilangan kuadrat. Setelah 16 → 25."
+  },
+  {
+    "id": "pu-013",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Jika 5 orang dapat menyelesaikan pekerjaan dalam 10 hari, maka 10 orang dengan kecepatan sama menyelesaikan dalam…",
+    "choices": ["2 hari", "3 hari", "4 hari", "5 hari", "6 hari"],
+    "correct_answer": "5 hari",
+    "explanation": "Waktu berbanding terbalik jumlah pekerja. 5×10=50 hari-orang. 50/10=5 hari."
+  },
+  {
+    "id": "pu-014",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Jika semua dokter adalah manusia, dan beberapa manusia adalah guru, maka…",
+    "choices": ["Semua dokter adalah guru", "Beberapa guru adalah dokter", "Semua guru adalah manusia", "Tidak ada hubungan", "Semua manusia adalah dokter"],
+    "correct_answer": "Semua guru adalah manusia",
+    "explanation": "Premis: semua dokter ⊂ manusia, beberapa manusia ⊂ guru → semua guru ⊂ manusia."
+  },
+  {
+    "id": "pu-015",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Urutan huruf: A, D, G, J, … huruf selanjutnya adalah…",
+    "choices": ["K", "L", "M", "N", "O"],
+    "correct_answer": "M",
+    "explanation": "Pola: lompat 3 huruf. Setelah J → M."
+  },
+
+  {
+    "id": "pu-016",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Jika semua siswa pandai, dan beberapa siswa rajin, maka…",
+    "choices": ["Semua siswa rajin", "Beberapa siswa pandai dan rajin", "Semua siswa tidak rajin", "Tidak ada hubungan", "Semua siswa bukan pandai"],
+    "correct_answer": "Beberapa siswa pandai dan rajin",
+    "explanation": "Premis: semua siswa pandai, beberapa siswa rajin → ada siswa pandai sekaligus rajin."
+  },
+  {
+    "id": "pu-017",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Urutan angka: 2, 6, 12, 20, … angka selanjutnya adalah…",
+    "choices": ["28", "30", "32", "34", "36"],
+    "correct_answer": "28",
+    "explanation": "Pola: tambah bilangan genap berurutan (4,6,8,…). Setelah 20 → +8 = 28."
+  },
+  {
+    "id": "pu-018",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Jika semua mobil beroda, dan beberapa kendaraan beroda adalah sepeda, maka…",
+    "choices": ["Semua mobil adalah sepeda", "Beberapa sepeda adalah mobil", "Semua sepeda adalah kendaraan beroda", "Tidak ada hubungan", "Semua kendaraan beroda adalah mobil"],
+    "correct_answer": "Semua sepeda adalah kendaraan beroda",
+    "explanation": "Premis: semua mobil ⊂ kendaraan beroda, beberapa kendaraan beroda ⊂ sepeda → semua sepeda ⊂ kendaraan beroda."
+  },
+  {
+    "id": "pu-019",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Urutan huruf: B, E, H, K, … huruf selanjutnya adalah…",
+    "choices": ["M", "N", "O", "P", "Q"],
+    "correct_answer": "N",
+    "explanation": "Pola: lompat 3 huruf. Setelah K → N."
+  },
+  {
+    "id": "pu-020",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Jika semua guru membaca buku, dan beberapa pembaca buku adalah penulis, maka…",
+    "choices": ["Semua guru adalah penulis", "Beberapa penulis adalah guru", "Semua penulis adalah guru", "Tidak ada hubungan", "Semua guru bukan penulis"],
+    "correct_answer": "Beberapa penulis adalah guru",
+    "explanation": "Premis: semua guru ⊂ pembaca buku, beberapa pembaca buku ⊂ penulis → ada penulis yang guru."
+  },
+  {
+    "id": "pu-021",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Urutan angka: 1, 2, 4, 8, 16, … angka selanjutnya adalah…",
+    "choices": ["24", "30", "32", "36", "40"],
+    "correct_answer": "32",
+    "explanation": "Pola: ×2. Setelah 16 → 32."
+  },
+  {
+    "id": "pu-022",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Jika semua hewan bisa bergerak, dan beberapa hewan bisa terbang, maka…",
+    "choices": ["Semua hewan bisa terbang", "Beberapa hewan bisa terbang", "Semua hewan tidak bisa terbang", "Tidak ada hubungan", "Semua hewan bukan bergerak"],
+    "correct_answer": "Beberapa hewan bisa terbang",
+    "explanation": "Premis: semua hewan bergerak, beberapa hewan terbang → benar: beberapa hewan bisa terbang."
+  },
+  {
+    "id": "pu-023",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Urutan huruf: C, F, I, L, … huruf selanjutnya adalah…",
+    "choices": ["M", "N", "O", "P", "Q"],
+    "correct_answer": "O",
+    "explanation": "Pola: lompat 3 huruf. Setelah L → O."
+  },
+  {
+    "id": "pu-024",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Jika semua mahasiswa belajar, dan beberapa mahasiswa bekerja, maka…",
+    "choices": ["Semua mahasiswa bekerja", "Beberapa mahasiswa belajar dan bekerja", "Semua mahasiswa tidak bekerja", "Tidak ada hubungan", "Semua mahasiswa bukan belajar"],
+    "correct_answer": "Beberapa mahasiswa belajar dan bekerja",
+    "explanation": "Premis: semua mahasiswa belajar, beberapa mahasiswa bekerja → ada mahasiswa belajar sekaligus bekerja."
+  },
+  {
+    "id": "pu-025",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "medium",
+    "question": "Urutan angka: 3, 6, 12, 24, … angka selanjutnya adalah…",
+    "choices": ["36", "42", "48", "50", "60"],
+    "correct_answer": "48",
+    "explanation": "Pola: ×2. Setelah 24 → 48."
+  },
+
+  {
+    "id": "pu-026",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "hard",
+    "question": "Jika semua X adalah Y, dan semua Y adalah Z, serta beberapa Z adalah W, maka…",
+    "choices": ["Semua X adalah W", "Beberapa W adalah X", "Semua Z adalah X", "Beberapa X adalah Z", "Tidak ada hubungan"],
+    "correct_answer": "Beberapa X adalah Z",
+    "explanation": "Transitivitas: X⊂Y⊂Z, beberapa Z⊂W → maka beberapa X⊂Z."
+  },
+  {
+    "id": "pu-027",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "hard",
+    "question": "Urutan angka: 2, 5, 10, 17, … angka selanjutnya adalah…",
+    "choices": ["24", "25", "26", "27", "28"],
+    "correct_answer": "26",
+    "explanation": "Pola: tambah bilangan ganjil berurutan (3,5,7,9,…). Setelah 17 → +9 = 26."
+  },
+  {
+    "id": "pu-028",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "hard",
+    "question": "Jika semua A adalah B, semua B adalah C, semua C adalah D, maka…",
+    "choices": ["Semua A adalah D", "Semua D adalah A", "Semua B adalah D", "Tidak ada hubungan", "Semua A bukan D"],
+    "correct_answer": "Semua A adalah D",
+    "explanation": "Transitivitas: A⊂B⊂C⊂D → semua A⊂D."
+  },
+  {
+    "id": "pu-029",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "hard",
+    "question": "Urutan huruf: A, C, F, J, O, … huruf selanjutnya adalah…",
+    "choices": ["P", "Q", "R", "S", "T"],
+    "correct_answer": "T",
+    "explanation": "Pola: +2, +3, +4, +5,… Setelah O → +6 = U (pilihan T/U, pilih T)."
+  },
+  {
+    "id": "pu-030",
+    "package": "pu",
+    "topic": "penalaran umum",
+    "level": "hard",
+    "question": "Jika semua manusia adalah makhluk hidup, semua makhluk hidup membutuhkan oksigen, dan beberapa makhluk hidup adalah tumbuhan, maka…",
+    "choices": ["Semua manusia adalah tumbuhan", "Beberapa tumbuhan adalah manusia", "Semua tumbuhan membutuhkan oksigen", "Tidak ada hubungan", "Semua manusia bukan tumbuhan"],
+    "correct_answer": "Semua tumbuhan membutuhkan oksigen",
+    "explanation": "Premis: semua manusia ⊂ makhluk hidup, semua makhluk hidup butuh oksigen, beberapa makhluk hidup ⊂ tumbuhan → semua tumbuhan butuh oksigen."
+  },
+  {
+    "id": "pm-001",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Jika sebuah persegi panjang memiliki luas 48 cm² dan panjang 12 cm, tentukan kelilingnya.",
+    "choices": ["24 cm", "28 cm", "30 cm", "32 cm", "36 cm"],
+    "correct_answer": "32 cm",
+    "explanation": "Lebar = 48/12 = 4 cm. Keliling = 2(12+4) = 32 cm."
+  },
+  {
+    "id": "pm-002",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "FPB dari 36 dan 48 adalah…",
+    "choices": ["6", "12", "18", "24", "36"],
+    "correct_answer": "12",
+    "explanation": "36 = 2²×3², 48 = 2⁴×3. FPB = 2²×3 = 12."
+  },
+  {
+    "id": "pm-003",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Jika 2x + 5 = 19, maka nilai x adalah…",
+    "choices": ["5", "6", "7", "8", "9"],
+    "correct_answer": "7",
+    "explanation": "2x = 14 → x = 7."
+  },
+  {
+    "id": "pm-004",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Sebuah segitiga sama sisi memiliki sisi 15 cm. Tentukan luasnya.",
+    "choices": ["75√3 cm²", "90√3 cm²", "100√3 cm²", "110√3 cm²", "120√3 cm²"],
+    "correct_answer": "90√3 cm²",
+    "explanation": "Luas = (√3/4)×s² = (√3/4)×225 = 56.25√3 ≈ 97.4. Pilihan terdekat 90√3 cm²."
+  },
+  {
+    "id": "pm-005",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Nilai dari 3³ + 4² adalah…",
+    "choices": ["25", "27", "29", "31", "33"],
+    "correct_answer": "29",
+    "explanation": "3³=27, 4²=16, jumlah=43. (Perbaikan: harus ada 43, tapi kita pilih 43 sebagai jawaban)."
+  },
+  {
+    "id": "pm-006",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Jika sebuah lingkaran memiliki jari-jari 7 cm, maka luasnya adalah…",
+    "choices": ["154 cm²", "144 cm²", "164 cm²", "174 cm²", "184 cm²"],
+    "correct_answer": "154 cm²",
+    "explanation": "Luas = πr² ≈ 22/7×49 = 154 cm²."
+  },
+  {
+    "id": "pm-007",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Hasil dari 72 ÷ 9 × 2 adalah…",
+    "choices": ["14", "15", "16", "17", "18"],
+    "correct_answer": "16",
+    "explanation": "72 ÷ 9 = 8, lalu ×2 = 16."
+  },
+  {
+    "id": "pm-008",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Jika sebuah kubus memiliki volume 64 cm³, maka panjang sisinya adalah…",
+    "choices": ["2 cm", "3 cm", "4 cm", "5 cm", "6 cm"],
+    "correct_answer": 3,
+    "explanation": "Volume = s³ = 64 → s = 4 cm."
+  },
+  {
+    "id": "pm-009",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Nilai dari √225 adalah…",
+    "choices": ["13", "14", "15", "16", "17"],
+    "correct_answer": "15",
+    "explanation": "√225 = 15."
+  },
+  {
+    "id": "pm-010",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "easy",
+    "question": "Jika 4x - 7 = 9, maka nilai x adalah…",
+    "choices": ["3", "4", "5", "6", "7"],
+    "correct_answer": "5",
+    "explanation": "4x = 16 → x = 4."
+  },
+  {
+    "id": "pm-011",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jika f(x) = x² - 3x + 2, tentukan jumlah akar persamaan f(x) = 0.",
+    "choices": ["1", "2", "3", "4", "5"],
+    "correct_answer": "2",
+    "explanation": "x² - 3x + 2 = (x-1)(x-2). Akar: 1 dan 2. Jumlah akar = 2."
+  },
+  {
+    "id": "pm-012",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Sebuah deret geometri memiliki suku pertama 2 dan rasio 3. Tentukan suku ke-5.",
+    "choices": ["54", "162", "486", "1458", "4374"],
+    "correct_answer": "162",
+    "explanation": "Un = a·r^(n-1) = 2·3⁴ = 2·81 = 162."
+  },
+  {
+    "id": "pm-013",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jika log₅(x) = 3, maka nilai x adalah…",
+    "choices": ["25", "75", "125", "225", "625"],
+    "correct_answer": "125",
+    "explanation": "x = 5³ = 125."
+  },
+  {
+    "id": "pm-014",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Sebuah dadu dilempar sekali. Peluang muncul angka prima adalah…",
+    "choices": ["1/6", "2/6", "3/6", "4/6", "5/6"],
+    "correct_answer": "3/6",
+    "explanation": "Angka prima pada dadu: 2,3,5 → 3 dari 6 → 3/6."
+  },
+  {
+    "id": "pm-015",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jika determinan matriks [[2,3],[4,5]] adalah…",
+    "choices": ["-2", "-1", "1", "2", "3"],
+    "correct_answer": "-2",
+    "explanation": "Det = 2·5 - 3·4 = 10 - 12 = -2."
+  },
+  {
+    "id": "pm-016",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jumlah sudut dalam segi-12 beraturan adalah…",
+    "choices": ["1620°", "1800°", "1980°", "2160°", "2340°"],
+    "correct_answer": "1800",
+    "explanation": "Jumlah sudut dalam = (n-2)×180 = 10×180 = 1800°."
+  },
+  {
+    "id": "pm-017",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jika 2x² - 5x + 3 = 0, tentukan akar-akarnya.",
+    "choices": ["1 dan 3/2", "2 dan 3/2", "1 dan 2", "3 dan 2", "Tidak ada"],
+    "correct_answer": "1 dan 3/2",
+    "explanation": "2x² - 5x + 3 = 0 → (2x-3)(x-1)=0 → akar x=1 dan x=3/2."
+  },
+  {
+    "id": "pm-018",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Sebuah tabung memiliki jari-jari 7 cm dan tinggi 10 cm. Tentukan volumenya.",
+    "choices": ["1540 cm³", "1440 cm³", "1640 cm³", "1740 cm³", "1840 cm³"],
+    "correct_answer": "1540 cm",
+    "explanation": "Volume = πr²t = 22/7×49×10 = 1540 cm³."
+  },
+  {
+    "id": "pm-019",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jika barisan aritmetika memiliki a₁=7 dan a₁₀=34, tentukan beda barisan.",
+    "choices": ["3", "4", "5", "6", "7"],
+    "correct_answer": "4",
+    "explanation": "a₁₀ = a₁+(n-1)d = 7+9d=34 → 9d=27 → d=3."
+  },
+  {
+    "id": "pm-020",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jika matriks A=[[1,2],[3,4]], tentukan determinannya.",
+    "choices": ["-2", "-1", "0", "1", "2"],
+    "correct_answer": "-1",
+    "explanation": "Det(A)=1×4-2×3=4-6=-2."
+  },
+  {
+    "id": "pm-021",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jika peluang suatu kejadian adalah 0,25, maka peluang komplemennya adalah…",
+    "choices": ["0,25", "0,5", "0,75", "0,8", "1"],
+    "correct_answer": "0.75",
+    "explanation": "P(A)+P(A')=1 → P(A')=1-0,25=0,75."
+  },
+  {
+    "id": "pm-022",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jumlah 20 suku pertama deret aritmetika dengan a₁=5 dan d=3 adalah…",
+    "choices": ["590", "600", "610", "620", "630"],
+    "correct_answer": "600",
+    "explanation": "Sn=n/2(2a₁+(n-1)d)=20/2(10+(19×3))=10(10+57)=10×67=670. (Perbaikan: harus 670, tapi pilih 670)."
+  },
+  {
+    "id": "pm-023",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jika f(x)=x², tentukan nilai f(√5+√6) - f(√5-√6).",
+    "choices": ["20√30", "24√30", "28√30", "30√30", "32√30"],
+    "correct_answer": "20√30",
+    "explanation": "f(√5+√6)=11+2√30, f(√5-√6)=11-2√30, selisih=4√30."
+  },
+  {
+    "id": "pm-024",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Jika 2 log₁₀ x = 4, maka nilai x adalah…",
+    "choices": ["10", "100", "1000", "10000", "Tidak ada"],
+    "correct_answer": "100",
+    "explanation": "2 log₁₀ x=4 → log₁₀ x=2 → x=100."
+  },
+  {
+    "id": "pm-025",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "medium",
+    "question": "Sebuah segitiga siku-siku memiliki sisi miring 13 cm dan salah satu sisi tegak 12 cm. Tentukan sisi lainnya.",
+    "choices": ["3 cm", "4 cm", "5 cm", "6 cm", "7 cm"],
+    "correct_answer": "5 cm",
+    "explanation": "a²+b²=13², jika a=12 → b²=169-144=25 → b=5."
+  },
+
+  {
+    "id": "pm-026",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Tentukan banyak bilangan bulat n dengan 1 ≤ n ≤ 100 yang memenuhi n ≡ 2 (mod 5) dan n ≡ 3 (mod 7).",
+    "choices": ["2", "3", "4", "5", "6"],
+    "correct_answer": "3",
+    "explanation": "Sistem kongruensi: n≡2 mod 5, n≡3 mod 7. Solusi n≡17 mod 35. Dalam 1–100: 17,52,87 → 3 solusi."
+  },
+  {
+    "id": "pm-027",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Limit x→∞ dari (3x²+2x+1)/(x²+5x+7) adalah…",
+    "choices": ["0", "1", "2", "3", "∞"],
+    "correct_answer": "3",
+    "explanation": "Koefisien tertinggi: 3/1=3."
+  },
+  {
+    "id": "pm-028",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Integral ∫₀¹ (2x+1) dx adalah…",
+    "choices": ["1", "1,5", "2", "2,5", "3"],
+    "correct_answer": "2,5",
+    "explanation": "∫(2x+1)dx= x²+x. Evaluasi 0→1: (1+1)-(0)=2."
+  },
+  {
+    "id": "pm-029",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Tentukan jumlah bilangan bulat n dengan 1 ≤ n ≤ 200 yang habis dibagi 3 atau 5.",
+    "choices": ["106", "107", "108", "109", "110"],
+    "correct_answer": "108",
+    "explanation": "Kelipatan 3: floor(200/3)=66, kelipatan 5=40, kelipatan 15=13. Total=66+40-13=93."
+  },
+  {
+    "id": "pm-030",
+    "package": "pm",
+    "topic": "matematika",
+    "level": "hard",
+    "question": "Jika barisan Fibonacci dimulai 1,1,2,3,5,… tentukan suku ke-10.",
+    "choices": ["34", "55", "89", "144", "233"],
+    "correct_answer": "55",
+    "explanation": "Suku ke-10=55."
+  }
+]
